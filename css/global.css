@@ -1,0 +1,562 @@
+#cartHave .price::before{
+    font-family: 'Roboto';
+}
+.mainContainer ol li figure:before{
+    font-family: 'Oswald';
+}
+.bx-wrapper{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+input,textarea{
+    font-weight: inherit; line-height: inherit; font-family: inherit; background-color: transparent; resize: none; font-size: inherit;
+}
+li{list-style: none;}
+img{width: 100%;}
+a{text-decoration: none;}
+mark{background-color: transparent; font-style: normal;}
+address{font-style: normal;}
+input[type="submit"],input[type="button"]{border: none;}
+[class*="footer"] input,
+[class*="account"] input{
+    border-width: 0 0 2px; border-color: var(--bs03);
+}
+select{background-color: transparent;}
+
+time,a,small,b,strong,span,mark,img,input[type='radio'],#gnb.active{
+    display: block;
+}
+#gnb ul li a{
+    color: var(--gs07);
+}
+.underbarBtn{
+    color: var(--gs11);
+}
+footer a{
+    color: var(--gs14);
+}
+[class*="under"]::after{
+    content: ''; background-repeat: no-repeat; background-position: center;
+}
+.underblueBtn:after{
+    background-image: url('../images/ico_arrow_hv.png');
+}
+.underbarBtn:after{
+    background-image: url('../images/ico_arrow_bl.png');
+}
+header:not(#gnb){
+    background-color: var(--gs01); position: fixed; width: 100%; top: 0; z-index: 5;
+}
+#gnb{
+    display: none; background-color: var(--gs01); position: fixed;
+}
+.btnClose,
+.closePop{
+    position: absolute; background-image: url('../images/ico__close.png'); background-repeat: no-repeat;
+    background-size: contain; text-indent: -9999px;
+}
+#gnb > div ol > *{
+    background-repeat: no-repeat;
+}
+#gnb > div ol li:nth-of-type(1) a{
+    background-image: url('../images/ico__person.png');
+}
+#gnb > div ol .cart{
+    background-image: url('../images/ico__cart.png');
+}
+#gnb > div ol .join{
+    background-image:url('../images/ico__join.png');
+}
+#gnb > div ol li:nth-of-type(3) input[type='search']:focus-visible{
+    outline: none;
+}
+#gnb > div ol li:nth-of-type(3) input[type="search"]::-webkit-search-decoration,
+#gnb > div ol li:nth-of-type(3) input[type="search"]::-webkit-search-cancel-button,
+#gnb > div ol li:nth-of-type(3) input[type="search"]::-webkit-search-results-button,
+#gnb > div ol li:nth-of-type(3) input[type="search"]::-webkit-search-results-decoration,
+#login,
+.foldMenu > li ol,
+.desTable tr:not(:first-of-type) td:first-of-type,
+.qandA .accordionQA li p,
+.bottleDesignTap > ul:last-of-type li,
+.freeContainer .freeList,
+.accordionQA li p,
+.accountFind #successPage,
+.mypage > div > div,
+.mypage #manageAddr > div,
+.checkOutpayContainer form > div > div:nth-of-type(5) input[type="checkbox"],
+#addrBefore span input[type='checkbox'],
+.accountJoin div div form ul li:nth-of-type(5) input[type='checkbox'],
+.paymentContainer form div div:nth-of-type(1) > ul li input[type="radio"],
+.paymentContainer form div div:nth-of-type(2) div,
+.checkOutpayContainer form div div:nth-of-type(2) > ul li input[type='radio'],
+.checkOutpayContainer form div div:nth-of-type(2) .addrTab{
+    display: none;
+}
+header > div:first-of-type{
+    position: relative; box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.05);
+}
+header .menu{
+    position: absolute; padding: 0;
+}
+footer > h2{
+    max-width: 212px; margin-bottom: var(--sp06); padding-top: var(--sp13);
+}
+footer a,
+header > div nav ul li,
+footer address span{
+    display: inline-block;
+}
+footer > a:not(:first-of-type),
+footer > ul li:not(:first-of-type){
+    margin-left: var(--sp01);
+}
+footer > span{
+    float: right; padding-bottom: var(--sp09);
+}
+@media screen and (max-width: 767px){
+    #gnb > div ol li>*{
+        color: var(--gs11);
+    }
+    header > div nav li input[type="button"]{
+        color: var(--gs07);
+    }
+    [class*='under']:after{
+        display: inline-block; padding-left: var(--sp03);
+    }
+    [class*='under']{
+        display: block;
+    }
+    .underblueBtn{
+        color: var(--bs05);
+    }
+    .underbarBtn::after{
+        background-size: 4px; height: 8px;
+    }
+    .underblueBtn::after{
+        background-size: 6px; height: 25px; vertical-align: bottom;
+    }
+    body{
+        padding-top: var(--sp07);
+    }
+    header > div:not(#gnb,#haveCart,#emptyCart),
+    .mypage,
+    footer,
+    .footerAccess,
+    [class*='Container']>*:not(.fullBox,.relatedItems,.foldMenu,.pointP,.slideArea,.productDetails01){
+        padding: 0 3.57%;
+    }
+    #gnb{
+        top: 0; width: 100%; height: 100%;
+    }
+    #gnb > div > div.active > ul{
+        display: block;
+    }
+    #gnb > div{
+        position: relative; padding: var(--sp09) var(--sp03); box-sizing: border-box; height: 100%;
+    }
+    .btnClose,
+    .closePop{
+        right: 18px; width: 15px; height: 15px;
+    }
+    #gnb > div:first-of-type{
+        display: flex; flex-direction: column; justify-content: space-between; overflow: scroll;
+    }
+    #gnb > div > div > ul,
+    .verticalSlider,
+    header > div nav ul li a{
+        display: none;
+    }
+    #gnb > div > div:last-of-type{
+        order: 2;
+    }
+    header nav ul{
+        line-height: 40px;
+    }
+    #gnb > div > div:not(:last-child) h3{
+        position: relative;
+    }
+    #gnb > div > div:not(:last-child) h3::after{
+        content: url('../images/ico_arrow_down.png'); transform: rotate(0deg); transition: all 1s; position: absolute; right: 0;
+    }
+    #gnb > div > div.active:not(:last-child) h3::after{
+        transform: rotate(-180deg); transition: all 0.5s;
+    }
+    footer > span a:first-of-type,
+    #gnb > div div:nth-of-type(6) a:not(:last-of-type){
+        margin-right: var(--sp03);
+    }
+    footer > ul li,
+    #gnb > div div:nth-of-type(7) h3,
+    #gnb > div div:nth-of-type(7) a{
+        display: inline-block;
+    }
+    #gnb > div div:nth-of-type(7) a{
+        background-repeat: no-repeat; background-size: 65%; text-indent: -9999px;
+    }
+    #gnb > div div:nth-of-type(7) a:nth-of-type(1){
+        width: 23px; height: 27px; background-image: url('../images/ico_tiktok.png'); margin-left: 25px;
+    }
+    #gnb > div div:nth-of-type(7) a:nth-of-type(2){
+        width: 25px; height: 26px; background-image: url('../images/ico_ins.png'); margin-left: var(--sp02);
+    }
+    #gnb > div ul,
+    #gnb > div ul li:not(:last-of-type),
+    #gnb > div > div:not(:last-child) h3,
+    #gnb > div ol li:nth-of-type(1),
+    #gnb > div ol li:nth-of-type(2),
+    footer address div span,
+    footer address p span:not(:last-of-type),
+    footer address p,
+    footer address div{
+        margin-bottom: var(--sp02);
+    }
+    #gnb > div ol,
+    #gnb > div ol li:nth-of-type(3){
+        margin-bottom: var(--sp03);
+    }
+    #gnb > div ol::after,
+    #gnb > div ol::after,
+    footer::after{
+        content: ''; display: block; clear: both;
+    }
+    #gnb > div ol{
+        order: 1;
+    }
+    #gnb > div ol li{
+        border-bottom: 2px solid #bddfff;
+    }
+    #gnb > div ol li:nth-of-type(1),
+    #gnb > div ol li:nth-of-type(2){
+        width: 48%; float: left;
+    }
+    #gnb > div ol li:nth-of-type(2){
+        margin-left: 4%;
+    }
+    #gnb > div ol li>*{
+        background-repeat: no-repeat; text-align: right; background-size: 15px;
+    }
+    .join,.cart{
+        background-size: 15px; background-position: 10% 10%;
+    }
+    .cart > input{
+        float: right;
+    }
+    #gnb > div ol li a,
+    #gnb > div ol li:nth-of-type(3) input[type='search']{
+        background-position: 10px center;
+    }
+    #gnb > div ol li:nth-of-type(1),
+    #gnb > div ol li:nth-of-type(2){
+        height: 30px;
+    }
+    #gnb > div ol li:nth-of-type(3) input[type='search']{
+        border: none; width: 100%; background-image: url('../images/ico__find.png');
+    }
+    #gnb > div ol li:nth-of-type(4){
+        max-width: 70px; float: right;
+    }
+    header .menu{
+        top: 8px; right: 3.75%;
+    }
+    footer > ul{
+        overflow-x: scroll; white-space: nowrap; padding-bottom: var(--sp02);
+    }
+    footer > span a{
+        max-width: 15px;
+    }
+}
+/* ! mobile */
+@media screen and (min-width: 768px){
+    .verticalSlider{
+        list-style: none; background-color: var(--bs03); position: relative; overflow: hidden;
+    }
+    .verticalSlider li{
+        text-align: center; position: absolute; width: 100%; opacity: 0; transition-property: opacity, bottom;
+        transition-duration: 0.4s, 0.6s; transition-timing-function: ease-out,ease-in; color: var(--gs01); cursor: pointer;
+    }
+    .underblueBtn{
+        color: var(--gs14);
+    }
+    .underblueBtn:after{
+        background-size: 9px;
+    }
+    .underbarBtn:after{
+        background-size: 7px;
+    }
+    header > div nav{
+        box-sizing: border-box;
+    }
+    header > div nav ul li a,
+    header > div nav li input[type="button"]{
+        color: var(--gs07);
+    }
+    #gnb{
+        margin: 0 auto; box-shadow: 5px 5px 3px rgba(0,0,0,0.15); z-index: 6;
+        top: 55%; left: 50%; transform: translate(-50%, -50%);
+    }
+    #gnb > div:after,
+    #gnb > div div:nth-of-type(6)::before,
+    footer::after{
+        display: block; content: ''; clear: both;
+    }
+    #gnb > div div:not(:nth-of-type(6),:nth-of-type(7)),
+    #gnb > div ol{
+        float: left;
+    }
+    #gnb > div div:nth-of-type(2),
+    #gnb > div div:nth-of-type(3),
+    #gnb > div div:nth-of-type(5),
+    #gnb > div ol{
+        width: 16%;
+    }
+    #gnb > div div:nth-of-type(1),
+    #gnb > div div:nth-of-type(4){
+        width: 14%;
+    }
+    #gnb > div div:not(:nth-of-type(6),:nth-of-type(7),:nth-of-type(1)){
+        margin-left: 2%;
+    }
+    #gnb > div div:nth-of-type(6)>*,
+    #gnb > div div:nth-of-type(7)>*,
+    #gnb > div div:nth-of-type(6) ul>*,
+    footer > ul li{
+        display: inline-block;
+    }
+    #gnb > div div:nth-of-type(6) li:not(:first-of-type){
+        margin-left: var(--sp01);
+    }
+    #gnb > div div:nth-of-type(6) a:not(:last-of-type){
+        margin-right: var(--sp03);
+    }
+    #gnb > div div:nth-of-type(7) a{
+        text-indent: -9999px; background-repeat: no-repeat; background-size: contain; width: 23px; 
+    }
+    #gnb > div div:nth-of-type(7) a:nth-of-type(1){
+        background-image: url('../images/ico_tiktok.png'); margin-right: var(--sp02);
+    }
+    #gnb > div div:nth-of-type(7) a:nth-of-type(2){
+        background-image: url('../images/ico_ins.png');
+    }
+    #gnb > div ol li{
+        border-bottom: 2px solid #bddfff; padding:0 0 var(--sp02) var(--sp02); background-position: 15px 10%;
+    }
+    #gnb ul li:not(:last-of-type) a,
+    #gnb > div ol li:not(:last-of-type){
+        margin-bottom: var(--sp02); 
+    }
+    #gnb > div ol li>*{
+        display: block; background-size: contain; background-repeat: no-repeat;
+    }
+    #gnb > div ol li>*{
+        color: var(--gs11); padding-left: var(--sp05);
+    }
+    #gnb > div ol li:nth-of-type(1) a,
+    #gnb > div ol li:nth-of-type(2) input{
+        height: 20px;
+    }
+    #gnb > div ol li:nth-of-type(2) a{
+        height: 15px;
+    }
+    #gnb > div ol li:nth-of-type(3) input[type='search']{
+        border: none; width: 120px;
+    }
+    #gnb > div ol li:nth-of-type(3){
+        background: url('../images/ico__find.png')no-repeat; background-position:15px top;
+    }
+    #gnb > div ol li:nth-of-type(4) a{
+        background-image: url('../images/ico_logout.png'); height: 20px;
+    }
+    .verticalSlider li.active{
+        opacity: 1; bottom: 0;
+    }
+    header > div nav ul{
+        text-align: center;
+    }
+    header > div nav ul li:not(:first-of-type){
+        margin-left: 4.06%;
+    }
+    header > div nav ul li a:hover,
+    header > div nav ul li.active a{
+        color: var(--bs03);
+    }
+    footer address p span:not(:first-of-type),
+    footer address div a{
+        position: relative; margin-left: var(--sp05);
+    }
+    footer > span a{
+        max-width: 26px;
+    }
+    footer > span a:first-of-type{
+        margin-right: var(--sp07);
+    }
+}
+/* ?desk + tab */ 
+@media screen and (max-width: 1279px){
+    #gnb > div h2{
+        display: none;
+    }
+    .btnClose,
+    .closePop{
+        top: 25px;
+    }
+    #gnb > div div:nth-of-type(6){
+        margin-bottom: var(--sp04);
+    }
+    header > div h1{
+        max-width: 115px; position: absolute; top: 15px;
+    }
+    header > div nav li input[type="button"]{
+        font-size: 12px;
+    }
+    footer > ul{
+        margin-top: var(--sp02);
+    }
+}
+/* !tab + mob */
+@media screen and (min-width:768px) and (max-width:1279px){
+    [class*='under']::after{
+        padding-left: var(--sp04);
+    }
+    body{
+        padding-top: var(--sp14);
+    }
+    header > div:not(#gnb,#haveCart,#emptyCart),
+    .mypage,
+    footer,
+    .footerAccess,
+    [class*='Container']>*:not(.fullBox,.relatedItems,.foldMenu,.pointP,.slideArea,.productDetails01){
+        margin: 0 auto; padding: 0 3.125%;
+    }
+    #gnb{
+        width: 93.75%;
+    }
+    #gnb > div{
+        padding: var(--sp13) 3.25% var(--sp06); position: relative;
+    }
+    .btnClose,
+    .closePop{
+        right: 25px; width: 20px; height: 20px;
+    } 
+    #gnb > div div:not(:nth-of-type(6),:nth-of-type(7)) h3,
+    footer address div,
+    footer > ul li{
+        margin-bottom: var(--sp04);
+    }
+    #gnb > div div:nth-of-type(6) h3,
+    #gnb > div div:nth-of-type(7) h3{
+        min-width: 100px;
+    }
+    #gnb > div div:nth-of-type(6){
+        padding-top: var(--sp07); clear: both;
+    }
+    .verticalSlider{
+        height: 30px;
+    }
+    .verticalSlider li{
+        bottom: -15px; padding: 7px 0;
+    }
+    .verticalSlider li a{
+        color: var(--gs01);
+    }
+    header > div nav{
+        line-height: 45px;
+    }
+    header .menu{
+        top: 12px; right: 3.125%;
+    }
+    footer address div{
+        margin-top: var(--sp04);
+    }
+}
+/* ?tablet */
+
+@media screen and (min-width:1280px){
+    input[type="button"],input[type="submit"]{
+        cursor: pointer;
+    }
+    [class*='under']:after{
+        opacity: 0; transition: all 0.3s;
+    }
+    [class*='under']:hover::after{
+        opacity: 1; padding-left: var(--sp06);
+    }
+    .underblueBtn:hover{
+        color: var(--bs06);
+    }
+    body{
+        padding-top: var(--sp18);
+    }
+    header > div:not(#gnb,#haveCart,#emptyCart),
+    .mypage,
+    footer,
+    .footerAccess,
+    [class*='Container']>*:not(.fullBox,.relatedItems,.foldMenu,.pointP,.slideArea,.productDetails01,form){
+        max-width: 1720px; margin: 0 auto; padding: 0 5.2%;
+    }
+    #gnb{
+        width: 71.87%;
+    }
+    #gnb > div{
+        padding: 9% 10%; position: relative;
+    }
+    #gnb > div h2{
+        position: absolute; transform:rotate(-90deg); transform-origin: right bottom; right: 20px; top: 30%;
+        display: inline-block; text-indent: 120px; background-image: url('../images/Logo.png'); background-repeat: no-repeat; background-size: 24%;
+    }
+    .btnClose,
+    .closePop{
+        top: 50px; right: 50px; width: 30px; height: 30px;
+    }
+    #gnb > div div:not(:nth-of-type(6),:nth-of-type(7)) h3,
+    #gnb > div div:nth-of-type(6){
+        margin-bottom: var(--sp07);
+    }
+    #gnb > div div:nth-of-type(6) h3,
+    #gnb > div div:nth-of-type(7) h3{
+        min-width: 135px;
+    }
+    #gnb > div div:nth-of-type(6){
+        clear: both; padding-top: var(--sp11);
+    }
+    #gnb .hinWLF15Lh15:hover{
+        font-weight: 600;
+    }
+    .verticalSlider{
+        height: 50px;
+    }
+    .verticalSlider li{
+        bottom: -50px; padding: var(--sp02) 0;
+    }
+    .verticalSlider li a{
+        color: var(--gs01);
+    }
+    header > div h1{
+        max-width: 212px; position: absolute; top: 35px;
+    }
+    header > div nav{
+        line-height: 95px;
+    }
+    header .menu{
+        top: 35px; right: 5%; font-size: 35px;
+    }
+    footer ul,
+    footer address div{
+        margin: var(--sp04) 0;
+    }
+}
+/* *desktop */
+
+
+
+
+
+
+
+
+
+
+

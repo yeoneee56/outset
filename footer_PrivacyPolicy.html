@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE OUTSET</title>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/outset.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartEmpty" class="cartPanel">
+        <h2 class="robWRF20">
+            Your Cart
+            <input type="button" value="close" class="closeCart btnClose">
+        </h2>
+        <b class="hinWMF25">YOU HAVE NO ITEMS IN YOUR CART.</b>
+        <p class="robWRF20">Login to find your registered basket or continue your purchase on the site.</p>
+        <input type="button" value="START SHOPPING" class="hinWMF20Lh50 sign_Btn closeCart">
+    </div>
+    <header>
+        <ol class="verticalSlider">
+            <li class="robWRF15 active"><a href="list_All.html">Enjoy free shipping on all orders</a></li>
+            <li><a href="footer_Subscription.html" class="robWRF15">NEW! Subscribe & Save 20% on your favorite products!</a></li>
+            <li><a href="account_JoinPage.html" class="robWRF15">Sign up for The Outset newsletter + enjoy 15% off!</a></li>
+        </ol>
+        <div>
+            <h1>
+                <a href="index_after.html">
+                    <img src="images/Logo.png" alt="Welcome to THE OUTSET">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="list_All.html" class="robWRF25">Skin Care</a></li>
+                    <li><a href="ethos_ConsciouslyClean.html" class="robWRF25">Product Ethos</a></li>
+                    <li><a href="regimen_DiscoverTheRegimen.html" class="robWRF25">The Regimen</a></li>
+                    <li><a href="about_OurStory.html" class="robWRF25">About Us</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="menu" data-popup="gnb" class="menu material-icons">
+        </div>
+
+        <div id="gnb">
+            <div>
+                <h2 class="robWUF12">THE OUTSET IS WHERE YOU BEGIN AGAIN.</h2>
+                <input type="button" value="close" class="btnClose">
+                <div>
+                    <h3 class="hinWSF18">Skin Care</h3>
+                    <ul>
+                        <li><a href="list_All.html" class="hinWLF15Lh15">All</a></li>
+                        <li><a href="list_Best.html" class="hinWLF15Lh15">Best</a></li>
+                        <li><a href="list_Bundle.html" class="hinWLF15Lh15">Bundle</a></li>
+                        <li><a href="list_Refills.html" class="hinWLF15Lh15">Refills</a></li>
+                        <li><a href="list_SkinCare.html" class="hinWLF15Lh15">Skin care</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">Product Ethos</h3>
+                    <ul>
+                        <li><a href="ethos_ConsciouslyClean.html" class="hinWLF15Lh15">Consciously clean</a></li>
+                        <li><a href="ethos_MindfullyDesigned.html" class="hinWLF15Lh15">Mindfully designed</a></li>
+                        <li><a href="ethos_Hyaluroset™Complex.html" class="hinWLF15Lh15">Hyaluroset™ complex</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">The Regimen</h3>
+                    <ul>
+                        <li><a href="regimen_DiscoverTheRegimen.html" class="hinWLF15Lh15">Discover The Regimen</a></li>
+                        <li><a href="regimen_Free.html" class="hinWLF15Lh15">Free list</a></li>
+                        <li><a href="regimen_Ingredient.html" class="hinWLF15Lh15">Ingredient list</a></li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">About Us</h3>
+                    <ul>
+                        <li><a href="about_OurStory.html" class="hinWLF15Lh15">Our story</a></li>
+                        <li><a href="about_OurCause.html" class="hinWLF15Lh15">Our cause</a></li>
+                        <li><a href="about_OurManifesto.html" class="hinWLF15Lh15">Our manifesto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">Contact US</h3>
+                    <ul>
+                        <li><a href="footer_ContactUS.html" class="hinWLF15Lh15">Contact US</a></li>
+                    </ul>
+                </div>
+                <ol>
+                    <li><a href="myPage.html" class="hinWSF15Lh18">YEON</a></li>
+                    <li class="cart"><input type="button" value="CART" class="hinWSF15 openCart" data-panel="cartEmpty"></li>
+                    <li><input type="search" placeholder="Search" class="hinWSF15Lh18"></li>
+                    <li><a href="index.html" class="hinWSF15Lh18">LOGOUT</a></li>
+                </ol>
+                <div>
+                    <h3 class="hinWSF18">MY PAGE</h3>
+                    <ul>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">ORDER</a></li>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">ADDRESSES</a></li>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">SUBSCRIPTIONS</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">SNS</h3>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        tiktok
+                    </a>
+                    <a href="https://www.instagram.com/theoutset/" target="_blank">
+                        instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <article class="ppContainer terms">
+        <div>
+            <h2 class="hinWSF18">PRIVACY POLICY</h2>
+            <ul>
+                <li class="robWLF15Lh28">
+                    This Privacy Policy was last updated effective as of February 1, 2022.
+                    You linked to this Privacy Policy (“Privacy Policy”) via a product website owned by The Outset Group LLC, (“Company”, “us”, “our” or “we”). This Privacy Policy applies to the Company’s website located at www.theoutset.com and all other websites owned and
+                    operated by the Company that post a link to this Privacy Policy (each a “Website” and collectively, the “Websites”). By using any of the Websites, you signify that you have read, understand and agree to be bound by this Privacy Policy.PRIVACY POLICY
+                </li>
+                <li class="robWLF15Lh28">
+                    This Privacy Policy applies to all online communication with Websites owned by the Company but does not apply to our data collection activities offline unless we otherwise indicate at the time of collection or in Section 12 of this Privacy Policy. It is important for
+                    you to understand what information we collect about you during your visit to our Websites and what we do with that information. Please note that your visit to any of our Websites is subject to this Privacy Policy and our Terms of Use and Conditions of Purchase.
+                    By using our Websites, you consent and agree to our Privacy Policy and Terms of Use and Conditions of Purchase and our collection, use and sharing of your information and data, and other activities, as described below. If you do not agree to the terms of this
+                    Privacy Policy, please do not provide us with any personal information and do not use our Websites.
+                </li>
+            </ul>
+        </div>
+        <div class="footerPPIndex">
+            <h3 class="hinWSF18">Table of Contents</h3>
+            <ol class="robWLF15Lh28">
+                <li>Information Collection</li>
+                <li>Use/Disclosure of Personal Information</li>
+                <li>Information Security</li>
+                <li>Access and Choice</li>
+                <li>Technology Utilized / Tracking Technologies</li>
+                <li>Do Not Track Signals</li>
+                <li>Ads and Information About You</li>
+                <li>External Links</li>
+                <li>Social Media Widgets</li>
+                <li>Blogs/Forums</li>
+                <li>International Users</li>
+                <li>Your California Privacy Rights</li>
+                <li>Notice to Nevada Residents</li>
+                <li>Notification of Changes</li>
+                <li>Contact Information</li>
+            </ol>
+        </div>
+        <ol>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Information Collection</h4>
+                <p>
+                    We collect personally identifiable information about you via our Websites when you provide it through various forms and places on the Websites such as in connection with a request or purchase of a product, service, or information or if you register for a Website
+                    account. You may browse our Websites without providing any personal information; however if, for example, you decide to place an order, we will ask you for your name, age, delivery and billing address, phone number(s), email address, and payment information
+                    such as credit/debit card number, expiration dates, PayPal or third party payment information. If you choose to complete a user registration form or survey, we may ask you for personal information, such as your contact information (e.g., name, e-mail address and
+                    mailing address). Occasionally, we may also ask you for other demographic information, such as gender, income level, and information about your prior experiences with the Company’s products. If we combine demographic information with the personal
+                    information we collect directly from you on our Websites, we will treat the combined data as personal information under this Privacy Policy. When you submit your personally identifiable or demographic information on one of the Websites, you are giving your
+                    consent to the collection, use and disclosure of your information as set forth in this Privacy Policy.
+                </p>
+                <div>
+                    We may receive information about you from your friends and others that use the Websites, such as when they submit your information to us about you. Additionally, we may, from time to time, supplement the information we collect directly from you on our
+                    Websites with outside records from third parties for various purposes, including to enhance our ability to serve you, to tailor our content to you and to offer you opportunities that may be of interest to you. For example, if you choose to have your purchase delivered
+                    to another person’s address, we may ask for the other person’s name and delivery address. We will use this information to deliver your purchase to the address you choose to have it delivered. You may delete the other person’s information from your account or the
+                    other person may contact us at <a href="mailto:privacy@theoutset.com">privacy@theoutset.com</a> to request that we remove their information from our database. Note: Although you can remove the information from your account for future orders, the other person’s information may be retained with the
+                    original transaction for auditing and legal purposes. In no other circumstances do our statements under this Privacy Policy apply to information we receive about you from third parties.
+                </div>
+                <p>
+                    We may also use the tracking technologies described in Section 5 below in order to automatically (or passively) collect, store or accumulate certain non-personally identifiable information concerning your use of this Website, such as information regarding which of
+                    our pages are most popular and remembering you and your preferences, your IP address, UDID or other unique identifier, device functionality (including browser, operator system, hardware, mobile network information), device location, device characteristics, city,
+                    time zone, and referring URL. Information gathered may be used in aggregate form for internal business purposes, such as generating statistics, developing marketing plans, customizing content, and improving the Website. This usage information may be stored or
+                    accessed using a variety of technologies that may be downloaded to your personal computer, browser, laptop, tablet, mobile phone or other device whenever you visit or interact with our Website. We may share or transfer such aggregate, non-personally identifiable
+                    information with or to our affiliates, licensees, partners and other third parties.
+                </p>
+                <p>
+                    We may combine automatically collected Website usage information with your Personal Information. In those cases, we will apply this Privacy Policy to the combined information.
+                    All of our Websites are intended for a general audience. We do not knowingly collect personal information from children under the age of 18. We will delete any personal information collected that we later determine to be from a user younger than the age of 18. If
+                    you are a parent or guardian of a child under the age of 18 and believe he or she has disclosed personal information to us, please contact using the Contact Information below.
+                </p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Use/Disclosure of Personal Information</h4>
+                <p>The Company and its affiliates and subsidiaries may use your information as follows:</p>
+                <ul>
+                    <li>to place an order made through the Website and fulfill your order request;</li>
+                    <li>to notify you of product recalls or provide other information concerning products you have purchased;</li>
+                    <li>to improve merchandise selections and the overall shopping experience at the Websites;</li>
+                    <li>to process transactions or provide you with information such as to send you electronic newsletters or to provide you with special offers or promotional and marketing materials on behalf of us or third parties, including to let you know about new products services or upcoming events;</li>
+                    <li>to improve the Websites, marketing endeavors or our Website offerings;</li>
+                    <li>to customize your experience on the Websites or to serve you specific content or ads that are relevant to you;</li>
+                    <li>to provide customer support, including to contact you regarding any problems with your orders or account; and to respond to your inquiries;</li>
+                    <li>to contact you with regard to your use of the Websites and, in our discretion, changes to the Websites and/or Websites’ policies;</li>
+                    <li>to identify your product and Website preferences so that you can be informed of new or additional products, services and promotions;</li>
+                    <li>to enable you to participate in a variety of the Websites’ features such as to enable you to participate in online entry sweepstakes, contests, loyalty programs or other promotions;</li>
+                    <li>to improve the overall experience at the Websites;</li>
+                    <li>to detect and troubleshoot problems, resolve disputes, and enforce applicable agreements and policies for the Websites;</li>
+                    <li>to protect each party from errors, misuse of the Websites, fraud, or any criminal activity;</li>
+                    <li>for legal, regulatory and internal business purposes; and</li>
+                    <li>for purposes disclosed at the time you provide your information or as otherwise set forth in this Privacy Policy.</li>
+                </ul>
+                <div>If for any reason you would no longer like to receive email marketing messages from the Company, you may follow the instructions contained within our promotional emails or please click here. Please allow up to ten (10) days for us to process your request. This
+                will not affect subsequent subscriptions and if your opt-out is limited to certain types or categories of emails the opt-out will be so limited. Please note, if you opt not to receive marketing emails from the Company, you may still receive “transactional” email
+                messages regarding your account, use of the Websites or your order (e.g., order confirmation, shipping information, recall notices, customer service notifications, etc.). If you have questions or concerns regarding this statement, please contact us at
+                <a href="mailto:privacy@theoutset.com.">privacy@theoutset.com.</a>
+                </div>
+                <p>
+                    The Company may share non-personal information, such as aggregated user statistics, with third parties. The Company may also share information, such as your name, email address, mailing address and/or telephone number to business partners, vendors and
+                    other third-party organizations to provide you with information about products, services and special offers we think may interest you or to improve our products, services and advertising. If you are a California resident, you have the right to request additional
+                    information about this sharing and to opt-out of the sale (as defined under California law) of your information, so please see Section 12 below. In addition, we may share the information we have collected about you, including personal information, as disclosed at
+                    the time you provide your information and as described below or otherwise in this Privacy Policy.
+                </p>
+                <p>
+                    We may contract with companies or individuals to provide certain services including email and hosting services, credit card processing, shipping, data management, surveys and marketing, promotional services, to assist in preventing or deterring fraud, etc. We call
+                    them our “Service Providers”. We may share personally identifiable information with Service Providers solely as appropriate for them to perform their functions, but they may not use such information for any other purpose.
+                </p>
+                <p>We do not share your credit card information with unaffiliated third parties unless you authorize us to do so, or if it is necessary to fulfill our responsibilities, including, but not limited to, delivering a product or service that you order.</p>
+                <p>Some of our pages utilize framing techniques to serve content to/from our partners while preserving the look and feel of our Website. Please be aware that you are providing your personal information to these third parties and not to Company.</p>
+                <p>The Company may, in its sole discretion, disclose personal information in special cases:</p>
+                <ol>
+                    <li>(1) when we have reason to believe that disclosing this information is necessary to identify, contact, or bring legal action against someone who may be causing injury to or interference with (either intentionally or unintentionally) the rights of the Company or to anyone that could be harmed by such activities;</li>
+                    <li>(2) when we believe in good faith that the law requires it;</li>
+                    <li>(3) to a subsequent owner, co-owner or operator of a Website or applicable database or in connection with a merger, consolidation, restructuring, the sale of substantially all of our interests and/or assets or other corporate change, including, during the courseof of any due diligence process;</li>
+                    <li>(4) in situations involving threats to the physical safety of any person.</li>
+                </ol>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Information Security</h4>
+                <p>
+                    We use Secure Sockets Layer (SSL), an advanced security protocol that protects your credit card information and ensures secure online ordering. SSL Internet connections are encrypted, and thus protect all credit card ordering information, including your name,
+                    address and credit card number, so it cannot be read in transit. We use secure technology, privacy protection controls, and restrictions on employee access, to safeguard your personal information. Please note, however, that although we employ industry-standard
+                    security measures to safeguard the security of your personal information, no transmissions made on or through the Internet are guaranteed to be secure. Please note that we cannot ensure the security of any information you transmit to us, and you use our
+                    Website and provide us with your information at your own risk.
+                </p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Access and Choice</h4>
+                <p>If your personal information changes, or if you no longer desire our service, you may correct, update, amend, delete/remove, or deactivate it by making the change on our member information page or by emailing us or contacting us by postal mail at the Contact Information listed below. We will respond to your request within a reasonable timeframe. </p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Technology Utilized / Tracking Technologies</h4>
+                <p>
+                    We and our marketing partners, affiliates, or analytics or service providers, use technologies such as cookies, beacons, tags, browser fingerprinting, recognition technologies and scripts, to analyze trends, administer the Website, tracking users’ movements around
+                    the Websites, and to gather demographic information about our user base as a whole. We may receive reports based on the use of these technologies by these companies on an individual and aggregated basis. This information may be combined with information
+                    collected from other third-party sources of information not collected during your visit to our website, which may include your name and mailing address, for purpose of determining whether you may be interested in receiving direct mail.
+                    There may be other tracking technologies now and later devised and used by us in connection with the Websites. Further, third parties may use tracking technologies in connection with our Websites, which may include the collection and storing of information
+                    about your online activities over time and across third-party websites or online services.
+                </p>
+                <p>
+                    We and third-party vendors, including Google, Facebook, Instagram and TikTok, use first-party cookies (such as the Google Analytics cookie) and third-party cookies (such as a DoubleClick cookie), device fingerprinting, web beacons, and other storage technologies
+                    together to collect or receive information to report how your ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to our Websites and elsewhere on the Internet. Google’s use of the DoubleClick
+                    cookie enables it and its partners to serve ads based on your visit to our Websites and/or other sites and online services. To learn more about how to opt out of Google’s use of first-party cookies, click
+                </p>
+                <div>To learn more about how to opt out of DoubleClick’s use of cookies, visit the DoubleClick opt-out page. Additionally, the Websites may use Adobe’s analytics and on-site personalization services. See <a href="mailto:http://www.adobe.com/privacy/analytics.html">http://www.adobe.com/privacy/analytics.html</a> for more information.</div>
+                <div>
+                    To learn about opting out of the use of Adobe cookies for analytics and on-site personalization, visit <a href="mailto:http://www.adobe.com/privacy/opt-out.html#4.">http://www.adobe.com/privacy/opt-out.html#4.</a> After you opt out of the use of Adobe cookies for analytics and on-site personalization, Adobe will no longer collect
+                    and analyze information via cookies associated with your browser for these services. When you opt out, Adobe will place opt-out cookies on your browser. If you delete your cookies, change browsers, or change devices, you will need to repeat this opt-out process.
+                    Also, please note that this opt-out process will work only if your browser is set to accept all cookies. We may not control those tracking technologies and we are not responsible for them. However, you consent to potentially encountering third-party tracking
+                    technologies in connection with use of our Websites and accept that our statements under this Privacy Policy do not apply to the tracking technologies or practices of such third parties.
+                </div>
+
+                <div>
+                    We use local storage, such as HTML5, to store content information and preferences. Third parties with whom we partner to provide certain features on our Website or to display advertising based upon your web browsing activity also use Flash cookies and HTML5
+                    to collect and store information. Various browsers may offer their own management tools for removing HTML5. To manage Flash cookies, please click here: <a href="mailto:http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html.">http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html.</a>
+                    To opt-out of receiving our direct mail, you may send us an email at <a href="mailto:privacy@theoutset.com.">privacy@theoutset.com.</a>
+                </div>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Do Not Track Signals</h4>
+                <p>Some web browsers are developing or offering signals or other mechanisms for the expression of consumer choice regarding the collection of information about an individual consumer’s online activities over time and across third-party web sites or online services (e.g., a “Do Not Track” (“DNT”) signal). A DNT signal is a HTTP header field indicating your preference regarding tracking or cross-site user tracking. We do not monitor or take any action with respect to DNT signals.</p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Ads and Information About You</h4>
+                <p>
+                    We may work with third parties, such as network advertisers and ad exchanges that use tracking technologies on our Websites in order to provide tailored advertisements on our behalf and/or on behalf of other advertisers across the Internet and we may use third
+                    party analytics service providers to evaluate and provide us and/or third parties with information about the use of these ads on third party sites and viewing of ads and of our content. Network advertisers are third parties that display advertisements, which may be
+                    based on your activities (including past visits to our Websites) across the Internet and mobile media (“Behavioral Ads”). Behavioral Ads enable us to target advertisements to you for products and services in which we believe you might be interested. If you object to
+                    receiving Behavioral Ads from us on third party sites, you can learn more about your ability to limit Behavioral Ads below. Our third-party ad network and exchange providers, the advertisers and/or traffic measurement services may themselves set and access their
+                    own technologies on your device and track certain behavioral usage information via a device identifier.
+                </p>
+                <p>These third-party technologies may be set to, among other things</p>
+                <ol>
+                    <li>(a) help deliver advertisements to you that you might be interested in;</li>
+                    <li>(b) prevent you from seeing the same advertisements;</li>
+                    <li>(c) understand the usefulness of the advertisements that have been delivered to you.</li>
+                </ol>
+                <p>
+                    Statements regarding our practices do not apply to the methods for collecting information used by these third parties or the use of the information that such third parties collect. We do however work with third parties to make efforts to have you provided with information on their practices and any available opportunity to exercise choice. We make no representations regarding the policies or practices of third-party advertisers or advertising networks or exchanges or related third parties.
+                </p>
+                <div>
+                    Further, while sites use a variety of companies to serve advertisements, you may wish to visit <a href="mailto:http://www.networkadvertising.org/optout_nonppii.asp">http://www.networkadvertising.org/optout_nonppii.asp</a>, which provides information regarding this practice by Network Advertising Initiative (“NAI”) members, and your
+                    choices regarding having this information used by these companies, including the “opt-out” procedures of NAI members. Opting out of one or more NAI members only means that those NAI members no longer will be allowed under their own rules to deliver
+                    Behavioral Ads to you, but does not mean you will no longer receive any targeted content and/or ads. Also, if your browsers are configured to reject cookies when you visit this opt-out page, or you subsequently erase your cookies, use a different device or change
+                    web browsers, your NAI opt-out may not, or may no longer, be effective. You may also opt-out of receiving Behavioral Ads on participating sites and services by visiting the Digital Advertising Alliance (“DAA”) website at <a href="mailto:http://www.aboutads.info/choices/.">http://www.aboutads.info/choices/.</a> Similar
+                    limitations may apply to the DAA opt-out. We are not responsible for effectiveness of or compliance with any third parties opt-out options or programs.
+                </div>
+                <p>Note that deleting browser cookies and/or using a different browser (e.g., in-app browsers on mobile) will remove the cookie preferences you have selected. As a result, you may need to opt-out again in the future to maintain your preferences.</p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">External Links</h4>
+                <p>
+                    Our Websites may offer links to and from other third-party sites. Other sites have their own policies regarding privacy. If you visit one of these sites, you should review the privacy policy on that site. For example, you may have linked to the Company’s brand site
+                    through a banner advertisement on another site. In such cases the site you have linked from may collect information from people who click on the banner or link. You should refer to the privacy policies on those sites to see how they collect and use this information.
+                </p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Social Media Widgets</h4>
+                <p>
+                    Our Websites include social media features (“Features”), such as the Facebook Like button, and widgets, such as the Share This button or interactive applications or mini programs that run on our Websites. For further example, our Websites interact in customary
+                    ways with Instagram, Twitter and TikTok (also included as Features hereunder). These Features may collect your Internet protocol address, which page you are visiting on our Website, and may set a cookie to enable the Feature to function properly. The use of this
+                    functionality may involve the third-party operator providing certain information, including personal information, to us.
+                </p>
+                <p>
+                    If you click on social media icons on the Website (such as for Facebook, Twitter, TikTok or Instagram), those actions may be associated with, and we may have access to, your personal information you provided on those third-party sites or applications. If so, we will
+                    then treat it as personal information under this Privacy Policy. Features are either hosted by a third party or hosted directly on our Websites. Your interactions with each of these Features are governed by the privacy statement of the company providing it. If you
+                    choose to post information to a third-party platform, that information may be public. You should review the applicable third-party privacy policies before using such third-party tools on our Website.
+                </p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Blogs/Forums</h4>
+                <div>
+                    Our Websites may, from time to time, offer publicly accessible blogs or community forums where you can submit ideas, photographs, writings, music, video, audio recordings, computer graphics, pictures, data, information about your location, questions, comments,
+                    suggestions or other content, including personal information. You should be aware that any information you provide in these areas may be read, collected, and used by others who access them. Please note that the Company does not control who will have access
+                    to the information that you choose to make public and cannot ensure that parties who have access to such publicly available information will respect your privacy or keep it secure. To request removal of your personal information from our blog or community forum,
+                    contact us at <a href="mailto:privacy@theoutset.com.">privacy@theoutset.com.</a>
+                </div>
+                <p>In some cases, we may not be able to remove your personal information, in which case we will let you know if we are unable to do so and why. We are not responsible for the privacy or security of any information that you make publicly available on the Websites or what others do with information you share with them on the Websites. We are not responsible for the accuracy, use or misuse of any user content that you disclose or receive from third parties through the Websites.</p>
+            </li>
+            <li class="robWLF15Lh28">
+               <h4 class="hinWSF18">International Users; Consent to Transfer and Processing in the United States</h4>
+                <p>
+                    Our Websites are operated in the United States and intended for users located in the United States. Like almost every website, our Websites can be accessed by an international audience. If you are located outside of the United States, please be aware that
+                    information we collect, including personal information, will be transferred to, and processed, stored and used in the United States. The data protection laws in the United States may differ from those of the country in which you are located, and your personal
+                    information may be subject to access requests from governments, courts, or law enforcement in the United States according to laws of the United States. In addition, such data may be stored on servers located outside your resident jurisdiction and in jurisdictions
+                    which may have less stringent privacy practices than your own. By using a Website or providing us with any information, you consent to the transfer to, and processing, usage, sharing and storage of your information, including personal information, in the United
+                    States as set forth in this Privacy Policy.
+                 </p>
+            </li>
+            
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Your California Privacy Rights</h4>
+                <p>
+                    This Section 12 applies to any California residents about whom we collect personal information from any source, including through the use of the Websites, by buying our products or services, or by communicating with us electronically, in paper correspondence, or
+                    in person (collectively, “you”).
+                    For purposes of this section, “personal information” means information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular California consumer/resident or
+                    household. Personal information does not include publicly available information or information that has been de-identified.
+                </p>
+                <b>What Information We Collect</b>
+                <ul>
+                    <li>Identifiers, which includes real name and alias; postal address; unique personal identifier; online identifiers as detailed below; Internet Protocol (“IP”) address; email address; telephone number; account number, name and password; Social Security number; driver’s license number, passport number, state or other government-issued identification card number; and/or other similar identifiers;</li>
+                    <li>Commercial information, which includes records of personal property; products or services purchased, obtained or considered; order and confirmation numbers; account balances, payment history, or account activity; shipping information; bank account information and other information relating to your financial institution; credit application, credit checks, and information from credit reporting agencies; and/or other purchasing or consumer histories or tendencies;</li>
+                    <li>Information relating to Internet activity or other electronic network activity, which includes cookie identifiers, pixel tags, clear gifs (a.k.a. web beacons/web bugs), browser type, internet service provider (ISP), referring/exit pages, operating system, date/time stamp, clickstream data, device platform, device version, and/or other device characteristics including preferred language and your choice of settings such as Wi-Fi, Bluetooth, and Global Positioning System (“GPS”);</li>
+                    <li>Geolocation data, which includes GPS data; locational information based upon your IP address; cell network data; and/or other similar locational data; and which may be collected from various devices including your mobile device(s) or vehicles(s);</li>
+                    <li>Audio, electronic, or visual information, which includes records of calls to or from our customer service centers and photographic images;</li>
+                    <li>Professional or employment-related information, such as your current and previous employers; job title and responsibilities; assets; income; and/or other information related to your work history and/or prospective employment;</li>
+                </ul>
+                <b>What We Do With Your Information</b>
+                <p>We may collect or use personal information from you for the following purposes:</p>
+                <ul class="tableList">
+                   <li>Customer claims and fraud investigation and prevention</li>
+                   <li>Billing, payment, and fulfillment</li>
+                   <li>Customer relationship management</li>
+                   <li>Systems and data security</li>
+                   <li>Marketing our products and services</li>
+                   <li>Financial reporting and accounting</li>
+                   <li>Marketing the products and services of others</li>
+                   <li>Internal analytics</li>
+                   <li>Customer communications</li>
+                   <li>Assessing third party vendors / service providers</li>
+                   <li>General business administration</li>
+                   <li>Audit, compliance, policy, procedures, or regulation</li>
+                   <li>Protecting the safety of our employees and others</li>
+                   <li>Website optimization and maintenance</li>
+                </ul>
+                <b>We may collect personal information from the following categories of sources:</b>
+                <ul>
+                    <li>Our customers, prospective customers, users, members, and applicants, including via our websites, telephone, text message, postal mail, social media, forums, message boards, chatbot, or other means;</li>
+                    <li>Our affiliates;</li>
+                    <li>Our Service Providers, which includes customer relationship management providers, analytics providers, website hosting providers, systems administrators, and communications delivery services;</li>
+                    <li>Non-affiliated companies with which we have a business relationship and promotional and joint marketing partners;</li>
+                    <li>Other third parties, and other websites and mobile applications, online advertising partners, and other data suppliers;</li>
+                    <li>Information from third parties that post publicly about you or otherwise provide information to us; and</li>
+                    <li>Employees and job applicants.</li>
+                </ul>
+                <b>Who We Share Information With</b>
+                <p>
+                    We do not sell personal information, and do not otherwise provide personal information to third parties other than service providers receiving information to perform services for us on our behalf.
+                    As with nearly every e-commerce company, we do share a limited set of data that is gathered when you visit our Websites and other web-based services, such as cookies and pixels, with third parties in order to allow you to see tailored digital advertisements. To the
+                    extent this activity is interpreted as included in California law’s broad definition of “data sale”, we have provided you with opt-out rights as to that activity as described in Sections E and F below.
+                </p>
+                <p>
+                    The only category of third parties with whom we may share your personal information is advertising and marketing companies for the limited purpose of providing you with tailored digital advertising. The only categories of personal information that we may share
+                    with these third parties are identifiers, commercial information, and information relating to Internet activity or other electronic network activity, as further detailed in Section A above.
+                </p>
+                <b>Your Privacy Rights</b>
+                <p>If you are a California resident, subject to applicable law, you have the following rights under California law with respect to your personal information:</p>
+                <ul>
+                    <li>Right to Know. You have the right to request what personal information we collect, use, disclose and/or sell as applicable.</li>
+                    <li>Right to Delete. You have the right to request the deletion of your personal information that is collected and maintained by us.</li>
+                    <li>Right to Opt-Out of Sale. You have the right to opt-out of the sale of your personal information by us. Please see our Notice of Right to Opt-Out below for more information.</li>
+                    <li>Right to Non-Discrimination. You have the right not to be subjected to discriminatory treatment by us for the exercise of the privacy rights described above.</li>
+                </ul>
+                <p>You may also authorize a third party to exercise the above rights on your behalf by:</p>
+                <ol>
+                    <li>(1) Providing written permission for the authorized third party to submit a request;</li>
+                    <li>(2) providing a validly executed Power of Attorney to the authorized agent when such authorized agent submits a request.</li>
+                </ol>
+                <p>
+                    If we have collected information on your minor child, you may exercise the above rights on behalf of your minor child.
+                    The above rights are subject to our being able to reasonably verify your identity and authority to make these requests. These rights are also subject to various exclusions and exceptions under applicable laws. We will verify your identity by using data you provide,
+                    such as full name, email address, phone number and address. These data elements will be compared against our records for verification.
+                </p>
+                If you are a California resident and wish to seek to exercise these rights, please reach us by contacting us at <a href="mailto:privacy@theoutset.com.">privacy@theoutset.com.</a>
+                <p>For more information regarding your rights as a California resident under this Privacy Policy, or if you have any questions or concerns, you may contact us in the following ways:</p>
+                <ul>
+                    <li>By mail:<address>The Outset Group LLC, Attn: Legal, California Privacy Rights, 250  Hudson St, New York, NY 10007</address></li>
+                    <li>By email: <a href="mailto:privacy@theoutset.com">privacy@theoutset.com</a></li>
+                </ul>
+                <b>Notice of Right to Opt-Out</b>
+                <div>
+                    We do not sell personal information. However, if you wish to opt-out of our sharing of the limited data that is gathered when you visit our Websites and other web-based services for purposes of targeted digital advertising, you may do so by using contacting us at
+                    <a href="mailto:privacy@theoutset.com.">privacy@theoutset.com.</a>
+                    Please note that we do not maintain this web tracking data in an identifiable manner. As a result, we encourage you to visit the Network Advertising Initiative and/or the Digital Advertising Alliance’s Self-Regulatory Program for Online Behavioral Advertising for more
+                    information about opting out of seeing targeted digital advertisements.
+                </div>
+                <b>Notice of Financial Incentives</b>
+                <p>We may, from time to time, offer discounts on products or services by enrolling in our membership programs or email lists. We do not necessarily offer such programs currently. If and when we offer such programs, we will ask for certain of your personal information in order to become eligible for the rewards. The programs that may potentially be available to you are:</p>
+                <ul>
+                    <li>Email subscription lists. We may offer promotions to individuals who have subscribed to our email list, including free or discounted items. In order to participate in such promotions, if we offer them, you need to provide your email address.</li>
+                </ul>
+                <p>If applicable, this information would include a list of the categories of personal information that was shared and the names and addresses of all third parties with which we shared information in the immediately preceding twelve (12) calendar months.</p>
+                <p>California Civil Code Section 1798.83 permits customers of the Company who are California residents to request and obtain from us once a year, free of charge, information about the personal information (if any) we disclosed to third parties for the third parties’ direct marketing purposes in the preceding calendar year.</p>
+                <p>If you are a California resident and would like to make such a request, please submit your request in writing to:</p>
+                <address>The Outset Group LLC, Attn: Legal, California Privacy Rights, 250  Hudson St., New York, NY 10007</address>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Notice to Nevada Residents</h4>
+                <div>
+                    We do not currently sell your covered information as those terms are defined under applicable Nevada law. You may still submit an opt-out request and we will honor that request as required by Nevada law if we were to engage in such a sale in the future. Pursuant
+                    to Nevada law, you have the right to opt-out of the sale of certain covered personally identifiable information we have collected about you through our websites and online services, as those terms are defined under applicable Nevada law. If you are a Nevada
+                    resident and would like to opt-out of the sale of your covered information, please email us at <a href="mailto:privacy@theoutset.com.">privacy@theoutset.com.</a>
+                </div>
+                <p>Your request must include your full name, street address, city, state, zip code, and an email address so that we can contact if needed regarding this request. You may also be required to take reasonable steps as we determine from time to time in order to verify your identity and/or the authenticity of the request. We will respond to your request within sixty (60) days either confirming that your request has been processed or indicating that we need an additional thirty (30) days to complete the request.</p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Notification of Changes</h4>
+                <p>
+                    We may revise this Privacy Policy from time to time. If we decide to change our Privacy Policy, we will post the revised policy here. If we make any material changes, we will notify you by email (sent to the e-mail address specified in your account) or by means of a
+                    notice on this Website prior to the change becoming effective. As we may make changes at any time without notifying you, we suggest that you periodically consult this Privacy Policy. Your continued use of the Website after the changes are posted constitutes your
+                    agreement to the changes, both with regard to information we have previously collected from you and with regard to information we collect from you in the future. If you do not agree to the changes, please discontinue your use of our Website.
+                </p>
+            </li>
+            <li class="robWLF15Lh28">
+                <h4 class="hinWSF18">Contact Information</h4>
+                <p>If you have any questions about the Privacy Policy or practices described in it, you may contact us in the following ways:</p>
+                <ul>
+                    <li>Email: <a href="mailto:privacy@theoutset.com">privacy@theoutset.com</a></li>
+                    <li>Mail:<address>The Outset Group LLC, Attn: Privacy Policy,250 Hudson St., New York, NY 10007</address></li>
+                </ul>
+            </li>
+        </ol>
+    </article>
+
+    <footer>
+        <h2>
+            <a href="index_after.html">
+                <img src="images/Logo.png" alt="GO to main Page">
+            </a>
+        </h2>
+        <a href="footer_TnS.html" class="robWRF15">Terms of Service</a>
+        <a href="Footer_PrivacyPolicy.html" class="robWRF15">Privacy Policy</a>
+        <ul>
+            <li><a href="About_OurStory.html" class="robWRF15">About Us</a></li>
+            <li><a href="Footer_FAQs.html" class="robWRF15">FAQs</a></li>
+            <li><a href="Footer_Subscription.html" class="robWRF15">Subscription</a></li>
+            <li><a href="Footer_Accessibility.html" class="robWRF15">Accessibility</a></li>
+            <li><a href="Footer_ContactUS.html" class="robWRF15">Contact Us</a></li>
+            <li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftheoutset%2Fabout%2F" target="_blank" class="robWRF15">Careers</a></li>
+            <li><a href="Footer_HQ.html" class="robWRF15">HQ</a></li>
+            <li><a href="Footer_JoinSMS.html" class="robWRF15">Join SMS for 10% off</a></li>
+            <li><a href="Footer_ShippingPolicy.html" class="robWRF15">Shipping &amp; Return Policy</a></li>
+        </ul>
+        <address>
+            <p class="robWRF15">
+                <span>
+                    Name of company : THEOUTSET International Co,.Ltd.
+                </span>
+                <span>
+                    Name of representative : Scarlett Johansson's
+                </span>
+            </p>
+            <div class="robWRF15">
+                <span>
+                    Address : New York City’s Flatiron district
+                </span>
+                <a href="mailto:help@theoutset.com"> Email : help@theoutset.com.</a>
+            </div>
+        </address>
+        <p class="robWRF15">© The Outset 2022</p>
+        <span>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="images/ico_tiktok.png" alt="Go to Our Tiktok">
+            </a>
+            <a href="https://www.instagram.com/theoutset/" target="_blank">
+                <img src="images/ico_ins.png" alt="Go to Our Instargram">
+            </a>
+        </span>
+    </footer>
+</body>
+</html>

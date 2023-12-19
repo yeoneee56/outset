@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE OUTSET</title>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/outset.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartHave" class="cartPanel haveCart">
+        <div>
+            <h2 class="hinWRF20">
+                Your Cart
+                <input type="button" value="close" class="closeCart btnClose">
+            </h2>
+            <ul>
+                <li>
+                    <b class="hinWRF15">1 item</b>
+                    <strong class="oswWRF15 price">38.00</strong>
+                </li>
+                <li>
+                    <b class="hinWRF15">Shipping</b>
+                    <strong class="hinWRF15">calculated at checkout</strong>
+                </li>
+            </ul>
+            <div>
+                <p class="hinWRF15">
+                    <strong class="hinWSF20">TOTAL</strong>
+                    Shipping+taxes calculated at checkout
+                </p>
+                <strong class="oswWRF25 totalPrice price">38.00</strong>
+            </div>
+            <a href="checkOut.html" class="hinWMF20Lh50 sign_Btn">CHECKOUT</a>
+        </div>
+        <figure>
+            <input type="button" value="remove" class="removeBtn" data-panel="cartEmpty">
+            <img src="images/S03_dt_01.png" alt="Order product image">
+            <figcaption>
+                <b class="hinWRF20">GENTLE MICELLAR ANTIOXIDANT CLEANSER REFILL</b>
+                <span class="hinWRF15">The Cleanser</span>
+                <span class="hinWRF15">Size OZ</span>
+                <div>
+                    <div class="hinWRF15Lh30 countP">
+                        <input type="button" value="-">
+                        <SPAN>1</SPAN>
+                        <input type="button" value="+">
+                    </div>
+                    <strong class="oswWRF20 price">38.00</strong>
+                </div>
+            </figcaption>
+        </figure>   
+    </div>
+    
+    <div id="cartEmpty" class="cartPanel">
+        <h2 class="robWRF20">
+            Your Cart
+            <input type="button" value="close" class="closeCart btnClose">
+        </h2>
+        <b class="hinWMF25">YOU HAVE NO ITEMS IN YOUR CART.</b>
+        <p class="robWRF20">Login to find your registered basket or continue your purchase on the site.</p>
+        <input type="button" value="START SHOPPING" class="hinWMF20Lh50 sign_Btn closeCart">
+    </div>
+    <header>
+        <ol class="verticalSlider">
+            <li class="robWRF15 active"><a href="list_All.html">Enjoy free shipping on all orders</a></li>
+            <li><a href="footer_Subscription.html" class="robWRF15">NEW! Subscribe & Save 20% on your favorite products!</a></li>
+            <li><a href="account_JoinPage.html" class="robWRF15">Sign up for The Outset newsletter + enjoy 15% off!</a></li>
+        </ol>
+        <div>
+            <h1>
+                <a href="index_after.html">
+                    <img src="images/Logo.png" alt="Welcome to THE OUTSET">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li class="robWRF25 active"><a href="list_All.html">Skin Care</a></li>
+                    <li><a href="ethos_ConsciouslyClean.html" class="robWRF25">Product Ethos</a></li>
+                    <li><a href="regimen_DiscoverTheRegimen.html" class="robWRF25">The Regimen</a></li>
+                    <li><a href="about_OurStory.html" class="robWRF25">About Us</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="menu" data-popup="gnb" class="menu material-icons">
+        </div>
+
+        <div id="gnb">
+            <div>
+                <h2 class="robWUF12">THE OUTSET IS WHERE YOU BEGIN AGAIN.</h2>
+                <input type="button" value="close" class="btnClose">
+                <div>
+                    <h3 class="hinWSF18">Skin Care</h3>
+                    <ul>
+                        <li><a href="list_All.html" class="hinWLF15Lh15">All</a></li>
+                        <li><a href="list_Best.html" class="hinWLF15Lh15">Best</a></li>
+                        <li><a href="list_Bundle.html" class="hinWLF15Lh15">Bundle</a></li>
+                        <li><a href="list_Refills.html" class="hinWLF15Lh15">Refills</a></li>
+                        <li><a href="list_SkinCare.html" class="hinWLF15Lh15">Skin care</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">Product Ethos</h3>
+                    <ul>
+                        <li><a href="ethos_ConsciouslyClean.html" class="hinWLF15Lh15">Consciously clean</a></li>
+                        <li><a href="ethos_MindfullyDesigned.html" class="hinWLF15Lh15">Mindfully designed</a></li>
+                        <li><a href="ethos_Hyaluroset™Complex.html" class="hinWLF15Lh15">Hyaluroset™ complex</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">The Regimen</h3>
+                    <ul>
+                        <li><a href="regimen_DiscoverTheRegimen.html" class="hinWLF15Lh15">Discover The Regimen</a></li>
+                        <li><a href="regimen_Free.html" class="hinWLF15Lh15">Free list</a></li>
+                        <li><a href="regimen_Ingredient.html" class="hinWLF15Lh15">Ingredient list</a></li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">About Us</h3>
+                    <ul>
+                        <li><a href="about_OurStory.html" class="hinWLF15Lh15">Our story</a></li>
+                        <li><a href="about_OurCause.html" class="hinWLF15Lh15">Our cause</a></li>
+                        <li><a href="about_OurManifesto.html" class="hinWLF15Lh15">Our manifesto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">Contact US</h3>
+                    <ul>
+                        <li><a href="footer_ContactUS.html" class="hinWLF15">Contact US</a></li>
+                    </ul>
+                </div>
+                <ol>
+                    <li><a href="myPage.html" class="hinWSF15Lh15">YEON</a></li>
+                    <li class="cart"><input type="button" value="CART" class="hinWSF15 openCart" data-panel="cartHave"></li>
+                    <li><input type="search" placeholder="Search" class="hinWSF15Lh15"></li>
+                    <li><a href="index.html" class="hinWSF15Lh15">LOGOUT</a></li>
+                </ol>
+                <div>
+                    <h3 class="hinWSF18">MY PAGE</h3>
+                    <ul>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">ORDER</a></li>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">ADDRESSES</a></li>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">SUBSCRIPTIONS</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">SNS</h3>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        tiktok
+                    </a>
+                    <a href="https://www.instagram.com/theoutset/" target="_blank">
+                        instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="detailContainer detailType02 sc03">   
+        <div class="fullBox">
+            <div>
+                <div class="sliderBox">
+                    <ul class="detailSlider">
+                        <li><img src="images/R03_dt_01.png" alt="first product antioxidant cleanser refil image"></li>
+                        <li><img src="images/R03_dt_02.png" alt="second product antioxidant cleanser refil image"></li>
+                        <li><img src="images/S03_dt_03.png" alt="third product antioxidant cleanser refil image"></li>
+                    </ul>
+                    <ol class="detailPager">
+                        <li><a href="#" data-slide-index="0"><img src="images/R03_dt_01.png" alt="product antioxidant cleanser refill thumbNail1"></a></li>
+                        <li><a href="#" data-slide-index="1"><img src="images/R03_dt_02.png" alt="product antioxidant cleanser refill thumbNail2"></a></li>
+                        <li><a href="#" data-slide-index="2"><img src="images/S03_dt_03.png" alt="product antioxidant cleanser refill thumbNail3"></a></li>
+                    </ol>
+                </div>
+                <div>
+                    <mark class="hinWRF18">THE OUTSET IS WHERE YOU BEGIN AGAIN.</mark>
+                    <h2 class="hinWLF50Lh60">Gentle Micellar Antioxidant Cleanser Refill</h2>
+                    <strong class="robWRF30">The Cleanser</strong>
+                    <div>
+                        <span class="hinWLF45">
+                            <small class="hinWLF18">Price</small>
+                            38
+                        </span>
+                        <input type="button" value="CART" class="hinWRF20Lh60 btnCart" data-popup="cartHave" >
+                        <a href="checkOut.html"class="hinWRF20Lh60">BUY IT NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="productDetails01">
+            <ul class="barMenu prDetail">
+                <li><a href="#prDetail"class="robWLF17Lh50 active">Product Details</a></li>
+                <li><a href="#qa" class="robWLF17Lh50">Q&amp;A</a></li>
+                <li><a href="#items" class="robWLF17Lh50">Related Items</a></li>
+                <li><a href="#reviews" class="robWLF17Lh50">Reviews</a></li>
+            </ul>
+            <h3 class="robWLF35Lh32">Purify. Soothe. Refresh.</h3>
+            <figure>
+                <img src="images/R03_dt_02.png" alt="product antioxidant cleanser refill">
+                <figcaption>
+                    <h4 class="hinWSF45Lh32">GENTLE MICELLAR ANTIOXIDANT CLEANSER REFILL</h4>
+                    <p class="robWUF25">The essential first step to reset and cleanse skin. </p>
+                    <p class="robWLF25Lh35">This antioxidant-rich gel cleanser gently lifts away makeup, excess oil and impurities leaving skin fresh, hydrated and balanced without any harsh sulfates that can dry or strip skin.</p>
+                </figcaption>
+            </figure>
+            <div class="fullBox ingredientPart">
+                <img src="images/S03_dt_bt.png" alt="antioxidant cleanser bottle">
+                <p class="hinWRF35Lh32">
+                    This refreshing, jelly-like cleanser creates a light lather and rinses cleanly without leaving a residue.
+                    <span class="robWRF30">hydrating sulfate-free gel cleanser</span>
+                </p>
+                <div>
+                    <mark class="robWLF40Lh40">CHAMOMILE</mark>
+                    <mark class="robWLF40Lh40">LEMON &amp; ORANGE WATER</mark>
+                    <mark class="robWLF40Lh40">7AMINO ACIDS</mark>
+                </div>
+                <ul>
+                    <li class="robWRF20">Sooth + Calms</li>
+                    <li>Brightens + Delivers Antioxidants</li>
+                    <li>Help reduce signs of aging</li>
+                </ul>
+            </div>
+            <div class="fullBox howto">
+                <div>
+                    <h2 class="hinWSF60">HOW TO REFILL</h2>
+                    <div>
+                        <ul>
+                            <li>
+                                <img src="images/R_dt_how_01.png" alt="open the lid of an empty bottle">
+                                <p class="hinWRF18Lh20">Remove the cap and gently unscrew the pump from the empty bottle</p>
+                            </li>
+                            <li>
+                                <img src="images/R_dt_how_02.png" alt="Open the lid of the refill and fill the empty bottle">
+                                <p class="hinWRF18Lh20">Unscrew the cap on the refill pouch and line the nozzle up with the empty bottle.</p>
+                            </li>
+                            <li>
+                                <img src="images/R_dt_how_03.png" alt="Fill up to the outset logo and close the lid">
+                                <p class="hinWRF18Lh20">gently press from the bottom of the pouch until your bottle is filled to just above the outset logo</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="resultArea">
+                <ul>
+                    <li class="robWRF25Lh30">
+                        <strong class="robWRF30">RESULTS AFTER 1 USE</strong>
+                        <mark class="robWBF25">95%</mark> Agree their skin feels clean, smooth and refreshed
+                    </li>
+                    <li class="robWRF25Lh30">
+                        <strong class="robWRF30">RESULTS AFTER 10 USE</strong>
+                        <mark class="robWBF25">97%</mark> Agree this is gentle yet effective
+                    </li>
+                    <li class="robWRF25Lh30">
+                        <strong class="robWRF30">RESULTS AFTER 28 USE</strong>
+                        <mark class="robWBF25">95%</mark> Agree their skin feels balanced and looks brighter
+                    </li>
+                </ul>
+                <ol>
+                    <li>
+                        <strong class="robWSF18Lh25">97%</strong>
+                        <span class="robWLF15Lh20">AGREE THIS LEFT THEIR SKIN FEELING SMOOTH AND SOFT</span>
+                    </li>
+                    <li class="robWRF25">
+                        <strong class="robWSF18Lh25">95%</strong>
+                        <span class="robWLF15Lh20">AGREE THIS WAS GENTLE YET EFFECTIVE</span>
+                    </li>
+                    <li class="robWRF25">
+                        <strong class="robWSF18Lh25">95%</strong>
+                        <span class="robWLF15Lh20">AGREE THEIR SKIN LOOKS BRIGHTER</span>
+                    </li>
+                    <li class="robWRF25">
+                        <strong class="robWSF18Lh25">90%</strong>
+                        <span class="robWLF15Lh20">AGREE THIS LEFT THEIR SKIN FEELING HYDRATED</span>
+                    </li>
+                </ol>
+                <p class="robWUF15">INDEPENDENT CONSUMER STUDY 37 PEOPLE 28 DAY</p>            
+            </div>
+            <div class="whyArea">
+                <h2 class="hinWSF45">WHY IT'S SPECIAL?</h2>
+                <img src="images/sp_dt_01.png" alt="a sleeping woman image">
+                <img src="images/sp_dt_04.png" alt="applying cream image">
+                <p class="hinWRF25">We carefully selected lightweight, fast-absorbing Abyssinian oil derived from the Brassica Abyssinica plant native to Ethiopia for its ultra-rich blend of omega-9 and omega-6 fatty acids, which improve skin texture and reduce inflammation.</p>
+                <p class="robWLF20Lh30">Fused with hydrating, nutrient-rich avocado oil and the vitamin-packed superfood açai, the Boosting Oil delivers unparalleled nourishment and restores skin's natural vitality.</p>        
+            </div>
+            <table class="desTable">
+                <caption class="hinWMF30">Product description</caption>
+                <tr>
+                    <th class="hinWMF15Lh30">Name of product</th>
+                    <td class="hinWRF18Lh30">GENTLE MICELLAR ANTIOXIDANT CLEANSER REFILL</td>
+                </tr>
+                <tr>
+                    <td class="hinWRF18Lh30">GENTLE MICELLAR ANTIOXIDANT CLEANSER REFILL</td>
+                    <th class="hinWMF15Lh30">Net weight</th>
+                    <td class="hinWRF18Lh30">7.5FL OZ</td>
+                </tr>
+                <tr>
+                    <td class="hinWRF18Lh30">7.5 FL OZ</td>
+                    <th class="hinWMF15Lh30">Free Test</th>
+                    <td class="hinWRF18Lh30">Cruelty free, Vegan, Derpatologist tested,Gruten free, Fragrance free, Allergy tested, Slicone free, Nut allergen free, Sultable for sensitive skin, Non-comedogencic</td>
+                </tr>
+                <tr>
+                    <td class="hinWRF18Lh30">Cruelty free, Vegan, Derpatologist tested,Gruten free, Fragrance free, Allergy tested, Slicone free, Nut allergen free, Sultable for sensitive skin, Non-comedogencic</td>
+                    <th class="hinWMF15Lh30">How to use</th>
+                    <td class="hinWRF18Lh30">Wet skin with warm water and massage a dime-size amount of cleanser gently into skin, creating a light lather. Rinse thoroughly, and pat dry. Use daily, morning and night.</td>
+                </tr>
+                <tr>
+                    <td class="hinWRF18Lh30">Wet skin with warm water and massage a dime-size amount of cleanser gently into skin, creating a light lather. Rinse thoroughly, and pat dry. Use daily, morning and night.</td>
+                    <th class="hinWMF15Lh30">Ingredients</th>
+                    <td class="hinWRF18Lh30">
+                        <div>
+                            Caprylic/Capric Triglyceride, Squalane, Hydrogenated Ethylhexyl Olivate, Diheptyl Succinate, Simmondsia Chinensis (Jojoba) Seed Oil, Crambe Abyssinica Seed Oil, Euterpe Oleracea Fruit Oil, Helianthus Annuus (Sunflower) Seed Oil, Vitis Vinifera (Grape) Seed Oil Sclerocarya Birrea Seed Oil, Persea Gratissima (Avocado) Oil, Cassia Angustifolia Seed Polysaccharide,Argania Spinosa Kernel Oil Brassica Campestris (Rapeseed) Seed Oil, Moringa Oleifera Seed Oil, Hippophae Rhamnoides Oil,Linum Usitatissimum (Linseed) Seed Oil, Opuntia Ficus-Indica Seed Oil, Sesamum Indicum (Sesame) Seed Oil, Emblica Officinalis Fruit Extract, Capryloyl Glycerin/ Sebacic Acid Copolymer, Hydrogenated Olive Oil Unsaponifiables, Water(Aqua, Eau).
+                            <ul>
+                                <li>• Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that delivers immediate and lasting moistureto nourish, plump and smooth the skin.</li>
+                                <li>• Cleansing Micelles: attracts and dissolves makeup, oil and other impurities without drying the skin.</li>
+                                <li>• 7 Amino Blend: helps to strengthen and visibly reduce the signs of aging.</li>
+                                <li>• Antioxidant Fruit Extract Blend: lemon, orange, avocado and grape extracts help minimize free radicals damage.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hinWRF18Lh30">
+                        <div>
+                            Caprylic/Capric Triglyceride, Squalane, Hydrogenated Ethylhexyl Olivate, Diheptyl Succinate, Simmondsia Chinensis (Jojoba) Seed Oil, Crambe Abyssinica Seed Oil, Euterpe Oleracea Fruit Oil, Helianthus Annuus (Sunflower) Seed Oil, Vitis Vinifera (Grape) Seed Oil Sclerocarya Birrea Seed Oil, Persea Gratissima (Avocado) Oil, Cassia Angustifolia Seed Polysaccharide,Argania Spinosa Kernel Oil Brassica Campestris (Rapeseed) Seed Oil, Moringa Oleifera Seed Oil, Hippophae Rhamnoides Oil,Linum Usitatissimum (Linseed) Seed Oil, Opuntia Ficus-Indica Seed Oil, Sesamum Indicum (Sesame) Seed Oil, Emblica Officinalis Fruit Extract, Capryloyl Glycerin/ Sebacic Acid Copolymer, Hydrogenated Olive Oil Unsaponifiables, Water(Aqua, Eau).
+                            <ul>
+                                <li>• Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that delivers immediate and lasting moistureto nourish, plump and smooth the skin.</li>
+                                <li>• Cleansing Micelles: attracts and dissolves makeup, oil and other impurities without drying the skin.</li>
+                                <li>• 7 Amino Blend: helps to strengthen and visibly reduce the signs of aging.</li>
+                                <li>• Antioxidant Fruit Extract Blend: lemon, orange, avocado and grape extracts help minimize free radicals damage.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="qandA" >
+            <ul class="barMenu qa">
+                <li><a href="#prDetail" class="robWLF17Lh50">Product Details</a></li>
+                <li><a href="#qa" class="robWLF17Lh50 active">Q&amp;A</a></li>
+                <li><a href="#items" class="robWLF17Lh50">Related Items</a></li>
+                <li><a href="#reviews" class="robWLF17Lh50">Reviews</a></li>
+            </ul>
+
+            <div>
+                <h2 class="hinWMF20">
+                    <strong class="hinWMF30">Q&#38;A</strong>
+                    FREQUENTLY ASKED QUESTIONS
+                </h2>
+                <ul class="accordionQA">
+                    <li>
+                        <b class="robWRF15Lh20">WHY SHOULD I BUY THIS REFILL?</b>
+                        <p class="robWLF15Lh20">Our refill pouch is a cost-effective way to save on your favorite cleanser! It contains 50% more product than our standard bottle and offers more value so you can order less frequently.</p>
+                    </li>
+                    <li>
+                        <b class="robWRF15Lh20">HOW LONG WILL THIS REFILL LAST?</b>
+                        <p class="robWLF15Lh20">This refill pouch contains 50% more product than our standard size and should last you 2.5 months.</p>
+                    </li>
+                    <li>
+                        <b class="robWRF15Lh20">WHAT SKIN TYPE IS BEST SUITED TO USE THIS CLEANSER?</b>
+                        <p class="robWLF15Lh20">This cleanser is formulated for all skin types, including sensitive skin. It is a gentle, yet effective cleanser that won't leave your skin feeling stripped or dry.</p>
+                    </li>
+                    <li>
+                        <b class="robWRF15Lh20">HOW CAN I IMPLEMENT THIS PRODUCT INTO MY SKINCARE RITUAL?</b>
+                        <p class="robWLF15Lh20">For best results, use this cleanser in combination with the prep serum and daily moisturizer in the Daily Essentials Regimen. These three steps are all you need for healthy, hydrated and balanced skin.</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="hinWMF35">HAVE A QUESTION?</h2>
+                <p class="hinWLF18Lh30">We’re happy to answer any questions you may have about our products or any other general inquiries. Send us a note!</p>
+                <a href="mailto:help@theoutset.com" class="hinWMF18">Contact US</a>
+            </div>
+        </div>
+
+        <div class="relatedItem">
+            <ul class="barMenu items">
+                <li><a href="#prDetail" class="robWLF17Lh50">Product Details</a></li>
+                <li><a href="#qa" class="robWLF17Lh50">Q&amp;A</a></li>
+                <li><a href="#items" class="robWLF17Lh50 active">Related Items</a></li>
+                <li><a href="#reviews" class="robWLF17Lh50">Reviews</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="detail_S02.html">
+                        <img src="images/re_S02.png" alt="recommend product prep serum">
+                        <p class="hinWRF18Lh20">FIRMING VEGAN COLLAGEN PREP SERUM</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_S04.html">
+                        <img src="images/re_S04.png" alt="recommend product moisturizer">
+                        <p class="hinWRF18Lh20">NOURISHING SQUALANE DAILY MOISTURIZER</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_B04.html">
+                        <img src="images/re_B04.png" alt="recommend product regimen bundle">
+                        <p class="hinWRF18Lh20">DAILY ESSENTIALS REGIMEN BUNDLE</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="reviews">
+            <ul class="barMenu reviews">
+                <li><a href="#prDetail" class="robWLF17Lh50">Product Details</a></li>
+                <li><a href="#qa" class="robWLF17Lh50">Q&amp;A</a></li>
+                <li><a href="#items" class="robWLF17Lh50">Related Items</a></li>
+                <li><a href="#reviews" class="robWLF17Lh50 active">Reviews</a></li>
+            </ul>
+
+            <h2 class="hinWLF30">REVIEWS</h2>
+            <div>
+                <span>
+                    <strong class="hinWBF18">Total Reviews</strong>
+                    <b class="hinWSF40">2</b>                
+                </span>
+                <span>
+                    <mark class="hinWBF18">Average Rating</mark>
+                    <b class="hinWSF40">4.9</b>
+                </span>
+            </div>
+            <div>
+                <form>
+                    <select class="hinWRF15">
+                        <option value='default' selected>Rating</option>
+                        <option value='5.0'>★★★★★</option>
+                        <option value='4.0'>★★★★</option>
+                        <option value='3.0'>★★★</option>
+                        <option value='2.0'>★★</option>
+                        <option value='1.0'>★</option>
+                    </select>
+                    <select class="hinWRF15">
+                        <option value='default' selected>Skin Type</option>
+                        <option value='DRY'>DRY</option>
+                        <option value='Combination'>Combination</option>
+                        <option value='Normal'>Normal</option>
+                        <option value='Sensitive'>Sensitive</option>
+                        <option value='Oily'>Oily</option>
+                    </select>
+                    <select class="hinWRF15">
+                        <option value='default' selected>Age Range</option>
+                        <option value='18 - 24'>18 - 24</option>
+                        <option value='25 - 34'>25 - 34</option>
+                        <option value='35 - 44'>35 - 44</option>
+                        <option value='45 - 54'>45 - 54</option>
+                        <option value='55+'>55+</option>
+                    </select>
+                    <select class="hinWRF15">
+                        <option value='default' selected>Images &amp; Videos</option>
+                        <option value='Images'>Images</option>
+                        <option value='Videos'>Videos</option>
+                    </select>
+                    <input type="search" class="hinWRF15" placeholder="Search Reviews">
+                </form>
+            </div>
+
+            <ul class="reviewList">
+                <li>
+                    <div>
+                        <strong class="hinWSF18">MY SKIN DOESN’T BREAK OUT</strong>
+                        <p class="robWRF15Lh28">My skin doesn’t break out as much.</p>
+                        <span class="hinWRF15">
+                            Was This Review Helpful?
+                            <input type="button" value="2" class="oswWRF20 btnUp">
+                            <input type="button" value="0" class="oswWRF20 btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt class="hinWRF15">Name :</dt>
+                            <dd class="hinWMF15">MEGAN</dd>
+                            <dt class="hinWRF15">Age Range :</dt>
+                            <dd class="hinWMF15">25 - 34</dd>
+                            <dt class="hinWRF15">Skin Type:</dt>
+                            <dd class="hinWMF15">Combination</dd>
+                        </dl>
+                        <time class="hinWSF18" datetime="2023-01-20">01/20/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong class="hinWSF18">BETTER THAN I IMAGINED</strong>
+                        <p class="robWRF15Lh28">I love that it moisturizes my skin without making it greasy. My skin just feels soft</p>
+                        <span class="hinWRF15">
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="oswWRF20 btnUp">
+                            <input type="button" value="0" class="oswWRF20 btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt class="hinWRF15">Name :</dt>
+                            <dd class="hinWMF15">MARY</dd>
+                            <dt class="hinWRF15">Age Range :</dt>
+                            <dd class="hinWMF15">35 - 44</dd>
+                            <dt class="hinWRF15">Skin Type:</dt>
+                            <dd class="hinWMF15">Dry</dd>
+                        </dl>
+                        <time class="hinWSF18" datetime="2023-01-19">01/19/23</time>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="pager">
+                <a href="#" class="material-symbols-outlined">chevron_left</a>
+                <a href="#" class="material-symbols-outlined">chevron_right</a>
+                <ol>
+                    <li><a href="#" class="oswWMF25 active">1</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <h2>
+            <a href="index_after.html">
+                <img src="images/Logo.png" alt="GO to main Page">
+            </a>
+        </h2>
+        <a href="footer_TnS.html" class="robWRF15">Terms of Service</a>
+        <a href="Footer_PrivacyPolicy.html" class="robWRF15">Privacy Policy</a>
+        <ul>
+            <li><a href="About_OurStory.html" class="robWRF15">About Us</a></li>
+            <li><a href="Footer_FAQs.html" class="robWRF15">FAQs</a></li>
+            <li><a href="Footer_Subscription.html" class="robWRF15">Subscription</a></li>
+            <li><a href="Footer_Accessibility.html" class="robWRF15">Accessibility</a></li>
+            <li><a href="Footer_ContactUS.html" class="robWRF15">Contact Us</a></li>
+            <li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftheoutset%2Fabout%2F" target="_blank" class="robWRF15">Careers</a></li>
+            <li><a href="Footer_HQ.html" class="robWRF15">HQ</a></li>
+            <li><a href="Footer_JoinSMS.html" class="robWRF15">Join SMS for 10% off</a></li>
+            <li><a href="Footer_ShippingPolicy.html" class="robWRF15">Shipping &amp; Return Policy</a></li>
+        </ul>
+        <address>
+            <p class="robWRF15">
+                <span>
+                    Name of company : THEOUTSET International Co,.Ltd.
+                </span>
+                <span>
+                    Name of representative : Scarlett Johansson's
+                </span>
+            </p>
+            <div class="robWRF15">
+                <span>
+                    Address : New York City’s Flatiron district
+                </span>
+                <a href="mailto:help@theoutset.com"> Email : help@theoutset.com.</a>
+            </div>
+        </address>
+        <p class="robWRF15">© The Outset 2022</p>
+        <span>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="images/ico_tiktok.png" alt="Go to Our Tiktok">
+            </a>
+            <a href="https://www.instagram.com/theoutset/" target="_blank">
+                <img src="images/ico_ins.png" alt="Go to Our Instargram">
+            </a>
+        </span>
+    </footer>
+
+</body>
+</html>

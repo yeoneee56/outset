@@ -1,0 +1,566 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE OUTSET</title>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/outset.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartHave" class="cartPanel haveCart">
+        <div>
+            <h2 class="hinWRF20">
+                Your Cart
+                <input type="button" value="close" class="closeCart btnClose">
+            </h2>
+            <ul>
+                <li>
+                    <b class="hinWRF15">1 item</b>
+                    <strong class="oswWRF15 price">70.00</strong>
+                </li>
+                <li>
+                    <b class="hinWRF15">Shipping</b>
+                    <strong class="hinWRF15">calculated at checkout</strong>
+                </li>
+            </ul>
+            <div>
+                <p class="hinWRF15">
+                    <strong class="hinWSF20">TOTAL</strong>
+                    Shipping+taxes calculated at checkout
+                </p>
+                <strong class="oswWRF25 totalPrice price">70.00</strong>
+            </div>
+            <a href="checkOut.html" class="hinWMF20Lh50 sign_Btn">CHECKOUT</a>
+        </div>
+        <figure>
+            <input type="button" value="remove" class="removeBtn" data-panel="cartEmpty">
+            <img src="images/B28_dt_01.png" alt="Order product image">
+            <figcaption>
+                <b class="hinWRF20">LUMINOUS GLOW DUO</b>
+                <span class="hinWRF15">ONLINE EXCLUSIVE</span>
+                <span class="hinWRF15">Size OZ</span>
+                <div>
+                    <div class="hinWRF15Lh30 countP">
+                        <input type="button" value="-">
+                        <SPAN>1</SPAN>
+                        <input type="button" value="+">
+                    </div>
+                    <strong class="oswWRF20 price">70.00</strong>
+                </div>
+            </figcaption>
+        </figure>   
+    </div>
+
+    <div id="cartEmpty" class="cartPanel">
+        <h2 class="robWRF20">
+            Your Cart
+            <input type="button" value="close" class="closeCart btnClose">
+        </h2>
+        <b class="hinWMF25">YOU HAVE NO ITEMS IN YOUR CART.</b>
+        <p class="robWRF20">Login to find your registered basket or continue your purchase on the site.</p>
+        <input type="button" value="START SHOPPING" class="hinWMF20Lh50 sign_Btn closeCart">
+    </div>
+    <header>
+        <ol class="verticalSlider">
+            <li class="robWRF15 active"><a href="list_All.html">Enjoy free shipping on all orders</a></li>
+            <li><a href="footer_Subscription.html" class="robWRF15">NEW! Subscribe & Save 20% on your favorite products!</a></li>
+            <li><a href="account_JoinPage.html" class="robWRF15">Sign up for The Outset newsletter + enjoy 15% off!</a></li>
+        </ol>
+        <div>
+            <h1>
+                <a href="index_after.html">
+                    <img src="images/Logo.png" alt="Welcome to THE OUTSET">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li class="robWRF25 active"><a href="list_All.html">Skin Care</a></li>
+                    <li><a href="ethos_ConsciouslyClean.html" class="robWRF25">Product Ethos</a></li>
+                    <li><a href="regimen_DiscoverTheRegimen.html" class="robWRF25">The Regimen</a></li>
+                    <li><a href="about_OurStory.html" class="robWRF25">About Us</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="menu" data-popup="gnb" class="menu material-icons">
+        </div>
+
+        <div id="gnb">
+            <div>
+                <h2 class="robWUF12">THE OUTSET IS WHERE YOU BEGIN AGAIN.</h2>
+                <input type="button" value="close" class="btnClose">
+                <div>
+                    <h3 class="hinWSF18">Skin Care</h3>
+                    <ul>
+                        <li><a href="list_All.html" class="hinWLF15Lh15">All</a></li>
+                        <li><a href="list_Best.html" class="hinWLF15Lh15">Best</a></li>
+                        <li><a href="list_Bundle.html" class="hinWLF15Lh15">Bundle</a></li>
+                        <li><a href="list_Refills.html" class="hinWLF15Lh15">Refills</a></li>
+                        <li><a href="list_SkinCare.html" class="hinWLF15Lh15">Skin care</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">Product Ethos</h3>
+                    <ul>
+                        <li><a href="ethos_ConsciouslyClean.html" class="hinWLF15Lh15">Consciously clean</a></li>
+                        <li><a href="ethos_MindfullyDesigned.html" class="hinWLF15Lh15">Mindfully designed</a></li>
+                        <li><a href="ethos_Hyaluroset™Complex.html" class="hinWLF15Lh15">Hyaluroset™ complex</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">The Regimen</h3>
+                    <ul>
+                        <li><a href="regimen_DiscoverTheRegimen.html" class="hinWLF15Lh15">Discover The Regimen</a></li>
+                        <li><a href="regimen_Free.html" class="hinWLF15Lh15">Free list</a></li>
+                        <li><a href="regimen_Ingredient.html" class="hinWLF15Lh15">Ingredient list</a></li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">About Us</h3>
+                    <ul>
+                        <li><a href="about_OurStory.html" class="hinWLF15Lh15">Our story</a></li>
+                        <li><a href="about_OurCause.html" class="hinWLF15Lh15">Our cause</a></li>
+                        <li><a href="about_OurManifesto.html" class="hinWLF15Lh15">Our manifesto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">Contact US</h3>
+                    <ul>
+                        <li><a href="footer_ContactUS.html" class="hinWLF15">Contact US</a></li>
+                    </ul>
+                </div>
+                <ol>
+                    <li><a href="myPage.html" class="hinWSF15Lh15">YEON</a></li>
+                    <li class="cart"><input type="button" value="CART" class="hinWSF15 openCart" data-panel="cartHave"></li>
+                    <li><input type="search" placeholder="Search" class="hinWSF15Lh15"></li>
+                    <li><a href="index.html" class="hinWSF15Lh15">LOGOUT</a></li>
+                </ol>
+                <div>
+                    <h3 class="hinWSF18">MY PAGE</h3>
+                    <ul>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">ORDER</a></li>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">ADDRESSES</a></li>
+                        <li><a href="myPage.html" class="hinWLF15Lh15">SUBSCRIPTIONS</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="hinWSF18">SNS</h3>
+                    <a href="https://www.tiktok.com/" target="_blank">
+                        tiktok
+                    </a>
+                    <a href="https://www.instagram.com/theoutset/" target="_blank">
+                        instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="detailContainer detailType03">   
+        <div class="fullBox">
+            <div>
+                <div class="sliderBox">
+                    <ul class="detailSlider">
+                        <li><img src="images/B28_dt_01.png" alt="first product  Luminous Glow Duo image"></li>
+                        <li><img src="images/B_S07_dt.png" alt="second product Luminous Glow Duo image"></li>
+                        <li><img src="images/B_S01_dt.png" alt="third product  Luminous Glow Duo image"></li>
+                    </ul>
+                    <ol class="detailPager">
+                        <li><a href="#" data-slide-index="0"><img src="images/B28_dt_01.png" alt="product Luminous Glow Duo thumbNail1"></a></li>
+                        <li><a href="#" data-slide-index="1"><img src="images/B_S07_dt.png" alt="product Luminous Glow Duo thumbNail2"></a></li>
+                        <li><a href="#" data-slide-index="2"><img src="images/B_S01_dt.png" alt="product Luminous Glow Duo thumbNail3"></a></li>
+                    </ol>
+                </div>
+                <div>
+                    <mark class="hinWRF18">THE OUTSET IS WHERE YOU BEGIN AGAIN.</mark>
+                    <h2 class="hinWLF50Lh60">Luminous Glow Duo</h2>
+                    <strong class="robWRF30">ONLINE EXCLUSIVE</strong>
+                    <div>
+                        <span class="hinWLF45">
+                            <small class="hinWLF18">Price</small>
+                            70.00
+                        </span>
+                        <input type="button" value="CART" class="hinWRF20Lh60 btnCart" data-popup="cartHave" >
+                        <a href="checkOut.html"class="hinWRF20Lh60">BUY IT NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="productDetails01">
+            <ul class="barMenu prDetail">
+                <li><a href="#prDetail"class="robWLF17Lh50 active">Product Details</a></li>
+                <li><a href="#qa" class="robWLF17Lh50">Q&amp;A</a></li>
+                <li><a href="#items" class="robWLF17Lh50">Related Items</a></li>
+                <li><a href="#reviews" class="robWLF17Lh50">Reviews</a></li>
+            </ul>
+            <h3 class="robWLF35Lh32">Polish. Oil.</h3>
+            <figure>
+                <img src="images/B28_dt_01.png" alt="product Luminous Glow Duo">
+                <figcaption>
+                    <h4 class="hinWSF45Lh32">LUMINOUS GLOW DUO</h4>
+                    <p class="robWUF25">Unveil skin's natural brilliance with the Luminous Glow Duo.</p>
+                    <p class="robWLF25Lh35">Natural mineral exfoliators, antioxidant Caffeine and White Tea, and nourishing Hyaluroset™ Complex combine in our Micro Polish to gently lift away dead skin cells while helping to boost circulation for a smoother and brighter appearance.</p>
+                </figcaption>
+            </figure>
+
+            <div class="fullBox bundle bg03">
+                <div class="peOil type02">
+                    <div>
+                        <h2 class="hinWSF40">
+                            <mark class="hinWBF45">LUMINOUS GLOW DUO</mark>
+                            The Potent set
+                            <b class="hinWRF18">The Boosting Oil(1 FL OZ) & The Prep Serum (1 FL OZ)</b>
+                        </h2>
+                        <p class="robWRF18Lh30">This light yet potent formula made from 100% naturally-derived ingredients soothes and hydrates even the most sensitive skin.</p>
+                        <p class="robWRF18Lh30">Your one-minute deep cleansing facial. Like a morning cup of coffee for the skin, this gentle mineral scrub with energizing caffeine revitalizes, visibly smooths and brightens a dull or lackluster complexion.</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/B_tex_S07_02.png" alt="texture of Boosting oil">
+                            <p class="hinWRF18Lh20">ULTRALIGHT MOISTURE-BOOSTING OIL</p>
+                        </div>
+                        <div>
+                            <img src="images/B_tex_S01_02.png" alt="texture of micro polish">
+                            <p class="hinWRF18Lh20">EXFOLIATING CAFFEINE MICRO POLISH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table class="desTable">
+                <caption class="hinWMF30">Product description</caption>
+                <tr>
+                    <th class="hinWMF15Lh30">Name of product</th>
+                    <td class="hinWRF18Lh30">LUMINOUS GLOW DUO</td>
+                </tr>
+                <tr>
+                    <td class="hinWRF18Lh30">LUMINOUS GLOW DUO</td>
+                    <th class="hinWMF15Lh30">How to use</th>
+                    <td class="hinWRF18Lh30">
+                        <dl>
+                            <dt>•The Micro Polish</dt>
+                            <dd>Gently massage a small amount into slightly damp skin using circular motions for 1 minute. Avoid the eye and lip area. Rinse thoroughly.</dd>
+                            <dt>•The Boosting Oil</dt>
+                            <dd>For your skin, apply two to three drops on clean, dry skin, smoothing over the face and neck until absorbed. Can be used alone or mixed into a moisturizer for optimal hydration. Use daily each morning and night. </dd>
+                            <dd>For your nails, add one or two drops to your cuticles to instantly soften and strengthen.</dd>
+                            <dd>For your hair, apply a few drops to ends of clean, dry hair to add extra shine.</dd>                            
+                        </dl>   
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hinWRF18Lh30">
+                        <dl>
+                            <dt>•The Micro Polish</dt>
+                            <dd>Gently massage a small amount into slightly damp skin using circular motions for 1 minute. Avoid the eye and lip area. Rinse thoroughly.</dd>
+                            <dt>•The Boosting Oil</dt>
+                            <dd>For your skin, apply two to three drops on clean, dry skin, smoothing over the face and neck until absorbed. Can be used alone or mixed into a moisturizer for optimal hydration. Use daily each morning and night. </dd>
+                            <dd>For your nails, add one or two drops to your cuticles to instantly soften and strengthen.</dd>
+                            <dd>For your hair, apply a few drops to ends of clean, dry hair to add extra shine.</dd>                            
+                        </dl>   
+                    </td>
+                    <th class="hinWMF15Lh30">Ingredients</th>
+                    <td class="hinWRF18Lh30">
+                        <div>
+                            Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that delivers immediate and lasting moisture to nourish, plump and smooth the skin.
+                            <ul>
+                                <li>• Fine Perlite(The Micro Polish) : a mineral that is naturally spherical in shape to provide gentle physical exfoliation without abrading the skin.</li>
+                                <li>• Abyssinian Oil(The Boosting Oil) : Rich in omega-9 and omega-6 fatty acids, this deeply moisturizing oil helps to cushion and comfort dry, sensitive skin.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hinWRF18Lh30">
+                        <div>
+                            Hyaluroset™ Complex: our signature botanical alternative to hyaluronic acid that delivers immediate and lasting moisture to nourish, plump and smooth the skin.
+                            <ul>
+                                <li>• Fine Perlite(The Micro Polish) : a mineral that is naturally spherical in shape to provide gentle physical exfoliation without abrading the skin.</li>
+                                <li>• Abyssinian Oil(The Boosting Oil) : Rich in omega-9 and omega-6 fatty acids, this deeply moisturizing oil helps to cushion and comfort dry, sensitive skin.</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="qandA" >
+            <ul class="barMenu qa">
+                <li><a href="#prDetail" class="robWLF17Lh50">Product Details</a></li>
+                <li><a href="#qa" class="robWLF17Lh50 active">Q&amp;A</a></li>
+                <li><a href="#items" class="robWLF17Lh50">Related Items</a></li>
+                <li><a href="#reviews" class="robWLF17Lh50">Reviews</a></li>
+            </ul>
+
+            <div>
+                <h2 class="hinWMF20">
+                    <strong class="hinWMF30">Q&#38;A</strong>
+                    FREQUENTLY ASKED QUESTIONS
+                </h2>
+                <p class="hinWRF15">NO QUESTIONS ARE REGISTERED.</p>
+            </div>
+            <div>
+                <h2 class="hinWMF35">HAVE A QUESTION?</h2>
+                <p class="hinWLF18Lh30">We’re happy to answer any questions you may have about our products or any other general inquiries. Send us a note!</p>
+                <a href="mailto:help@theoutset.com" class="hinWMF18">Contact US</a>
+            </div>
+        </div>
+
+        <div class="relatedItem">
+            <ul class="barMenu items">
+                <li><a href="#prDetail" class="robWLF17Lh50">Product Details</a></li>
+                <li><a href="#qa" class="robWLF17Lh50">Q&amp;A</a></li>
+                <li><a href="#items" class="robWLF17Lh50 active">Related Items</a></li>
+                <li><a href="#reviews" class="robWLF17Lh50">Reviews</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="detail_S02.html">
+                        <img src="images/re_S02.png" alt="recommend product prep serum">
+                        <p class="hinWRF18Lh20">FIRMING VEGAN COLLAGEN PREP SERUM</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_S05.html">
+                        <img src="images/re_S05.png" alt="recommend product night cream">
+                        <p class="hinWRF18Lh20">RESTORATIVE NIACINAMIDE NIGHT CREAM</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_S06.html">
+                        <img src="images/re_S06.png" alt="recommend product eye cream">
+                        <p class="hinWRF18Lh20">SMOOTHING VITAMIN C EYE + EXPRESSION LINES CREAM</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="reviews">
+            <ul class="barMenu reviews">
+                <li><a href="#prDetail" class="robWLF17Lh50">Product Details</a></li>
+                <li><a href="#qa" class="robWLF17Lh50">Q&amp;A</a></li>
+                <li><a href="#items" class="robWLF17Lh50">Related Items</a></li>
+                <li><a href="#reviews" class="robWLF17Lh50 active">Reviews</a></li>
+            </ul>
+
+            <h2 class="hinWLF30">REVIEWS</h2>
+            <div>
+                <span>
+                    <strong class="hinWBF18">Total Reviews</strong>
+                    <b class="hinWSF40">05</b>                
+                </span>
+                <span>
+                    <mark class="hinWBF18">Average Rating</mark>
+                    <b class="hinWSF40">4.7</b>
+                </span>
+            </div>
+            <div>
+                <form>
+                    <select class="hinWRF15">
+                        <option value='default' selected>Rating</option>
+                        <option value='5.0'>★★★★★</option>
+                        <option value='4.0'>★★★★</option>
+                        <option value='3.0'>★★★</option>
+                        <option value='2.0'>★★</option>
+                        <option value='1.0'>★</option>
+                    </select>
+                    <select class="hinWRF15">
+                        <option value='default' selected>Skin Type</option>
+                        <option value='DRY'>DRY</option>
+                        <option value='Combination'>Combination</option>
+                        <option value='Normal'>Normal</option>
+                        <option value='Sensitive'>Sensitive</option>
+                        <option value='Oily'>Oily</option>
+                    </select>
+                    <select class="hinWRF15">
+                        <option value='default' selected>Age Range</option>
+                        <option value='18 - 24'>18 - 24</option>
+                        <option value='25 - 34'>25 - 34</option>
+                        <option value='35 - 44'>35 - 44</option>
+                        <option value='45 - 54'>45 - 54</option>
+                        <option value='55+'>55+</option>
+                    </select>
+                    <select class="hinWRF15">
+                        <option value='default' selected>Images &amp; Videos</option>
+                        <option value='Images'>Images</option>
+                        <option value='Videos'>Videos</option>
+                    </select>
+                    <input type="search" class="hinWRF15" placeholder="Search Reviews">
+                </form>
+            </div>
+
+            <ul class="reviewList">
+                <li>
+                    <div>
+                        <strong class="hinWSF18">BETTER THAN I IMAGINED</strong>
+                        <p class="robWRF15Lh28">I was skeptical that this would be “amazing” because I’ve tried many skin care  lines before. I can say that this is by far the best one! It’s made my skin feel great, and has balanced my oil productio Better than I  imagined</p>
+                        <span class="hinWRF15">
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="oswWRF20 btnUp">
+                            <input type="button" value="2" class="oswWRF20 btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt class="hinWRF15">Name :</dt>
+                            <dd class="hinWMF15">KATIE O</dd>
+                            <dt class="hinWRF15">Age Range :</dt>
+                            <dd class="hinWMF15">25 - 34</dd>
+                            <dt class="hinWRF15">Skin Type:</dt>
+                            <dd class="hinWMF15">Combination</dd>
+                        </dl>
+                        <time class="hinWSF18" datetime="2023-01-20">01/20/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong class="hinWSF18">ABSOLUTELY OBSESSED!</strong>
+                        <p class="robWRF15Lh28">my skin feel and look amazing! The moisturizer is perfect when your skin is starting to feel dry.</p>
+                        <span class="hinWRF15">
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="oswWRF20 btnUp">
+                            <input type="button" value="0" class="oswWRF20 btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt class="hinWRF15">Name :</dt>
+                            <dd class="hinWMF15">MARYCAROLINE</dd>
+                            <dt class="hinWRF15">Age Range :</dt>
+                            <dd class="hinWMF15">35 - 44</dd>
+                            <dt class="hinWRF15">Skin Type:</dt>
+                            <dd class="hinWMF15">Dry</dd>
+                        </dl>
+                        <time class="hinWSF18" datetime="2023-01-19">01/19/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong class="hinWSF18">AMAZING PRODUCT</strong>
+                        <p class="robWRF15Lh28">I love that it moisturizes my skin without making it greasy. My skin just feels soft</p>
+                        <span class="hinWRF15">
+                            Was This Review Helpful?
+                            <input type="button" value="2" class="oswWRF20 btnUp">
+                            <input type="button" value="0" class="oswWRF20 btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt class="hinWRF15">Name :</dt>
+                            <dd class="hinWMF15">JAYCEE</dd>
+                            <dt class="hinWRF15">Age Range :</dt>
+                            <dd class="hinWMF15">25 - 34</dd>
+                            <dt class="hinWRF15">Skin Type:</dt>
+                            <dd class="hinWMF15">Combination</dd>
+                        </dl>
+                        <time class="hinWSF18" datetime="2023-01-17">01/17/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong class="hinWSF18">EXCEEDED MY EXPECTATIONS</strong>
+                        <p class="robWRF15Lh28">Gifted by The Outset. I figured I would at least like this product as I'm a big fan of doubling down on hydration in my skincare routine, especially during the winter, but I'm pleasantly surprised how much I love this product.</p>
+                        <span class="hinWRF15">
+                            Was This Review Helpful?
+                            <input type="button" value="0" class="oswWRF20 btnUp">
+                            <input type="button" value="0" class="oswWRF20 btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt class="hinWRF15">Name :</dt>
+                            <dd class="hinWMF15">SARAH</dd>
+                            <dt class="hinWRF15">Age Range :</dt>
+                            <dd class="hinWMF15">25 - 34</dd>
+                            <dt class="hinWRF15">Skin Type:</dt>
+                            <dd class="hinWMF15">Normal</dd>
+                        </dl>
+                        <time class="hinWSF18" datetime="2023-01-17">01/17/23</time>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong class="hinWSF18">EASY TO USE WITH MINIMAL</strong>
+                        <p class="robWRF15Lh28">Easy to use with minimalEasy to use with minimal steps.</p>
+                        <span class="hinWRF15">
+                            Was This Review Helpful?
+                            <input type="button" value="15" class="oswWRF20 btnUp">
+                            <input type="button" value="0" class="oswWRF20 btnDown">
+                        </span>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt class="hinWRF15">Name :</dt>
+                            <dd class="hinWMF15">ALYSSA</dd>
+                            <dt class="hinWRF15">Age Range :</dt>
+                            <dd class="hinWMF15">25 - 34</dd>
+                            <dt class="hinWRF15">Skin Type:</dt>
+                            <dd class="hinWMF15">Combination\</dd>
+                        </dl>
+                        <time class="hinWSF18" datetime="2023-01-10">01/10/23</time>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="pager">
+                <a href="#" class="material-symbols-outlined">chevron_left</a>
+                <a href="#" class="material-symbols-outlined">chevron_right</a>
+                <ol>
+                    <li><a href="#" class="oswWMF25 active">1</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <h2>
+            <a href="index_after.html">
+                <img src="images/Logo.png" alt="GO to main Page">
+            </a>
+        </h2>
+        <a href="footer_TnS.html" class="robWRF15">Terms of Service</a>
+        <a href="Footer_PrivacyPolicy.html" class="robWRF15">Privacy Policy</a>
+        <ul>
+            <li><a href="About_OurStory.html" class="robWRF15">About Us</a></li>
+            <li><a href="Footer_FAQs.html" class="robWRF15">FAQs</a></li>
+            <li><a href="Footer_Subscription.html" class="robWRF15">Subscription</a></li>
+            <li><a href="Footer_Accessibility.html" class="robWRF15">Accessibility</a></li>
+            <li><a href="Footer_ContactUS.html" class="robWRF15">Contact Us</a></li>
+            <li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ftheoutset%2Fabout%2F" target="_blank" class="robWRF15">Careers</a></li>
+            <li><a href="Footer_HQ.html" class="robWRF15">HQ</a></li>
+            <li><a href="Footer_JoinSMS.html" class="robWRF15">Join SMS for 10% off</a></li>
+            <li><a href="Footer_ShippingPolicy.html" class="robWRF15">Shipping &amp; Return Policy</a></li>
+        </ul>
+        <address>
+            <p class="robWRF15">
+                <span>
+                    Name of company : THEOUTSET International Co,.Ltd.
+                </span>
+                <span>
+                    Name of representative : Scarlett Johansson's
+                </span>
+            </p>
+            <div class="robWRF15">
+                <span>
+                    Address : New York City’s Flatiron district
+                </span>
+                <a href="mailto:help@theoutset.com"> Email : help@theoutset.com.</a>
+            </div>
+        </address>
+        <p class="robWRF15">© The Outset 2022</p>
+        <span>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="images/ico_tiktok.png" alt="Go to Our Tiktok">
+            </a>
+            <a href="https://www.instagram.com/theoutset/" target="_blank">
+                <img src="images/ico_ins.png" alt="Go to Our Instargram">
+            </a>
+        </span>
+    </footer>
+
+</body>
+</html>
