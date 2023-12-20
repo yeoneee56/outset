@@ -371,7 +371,7 @@
         bottom: -70px;
     }
     .causeContainer>ul:nth-of-type(2) li div::before{
-        width: 100%; margin: 0 auto var(--sp05); padding-top: var(--sp17);
+        margin: 0 auto var(--sp05); padding-top: var(--sp17);
     }
     .causeContainer>ul:nth-of-type(2) li div h3:after{
         margin: var(--sp01) auto 0;
@@ -1206,8 +1206,11 @@
     .causeContainer>ul:nth-of-type(2) li div p:not(:first-child){
         margin: 0 auto var(--sp06); max-width: 550px;
     }
+    .causeContainer>ul:nth-of-type(2) li div::before{
+        padding-top: var(--sp20); margin-bottom: var(--sp09);
+    }
     .festoContainer>div:nth-of-type(2) video{
-        max-width: 720px; margin: 0 auto var(--sp09);
+        max-width: 720px; margin: 0 auto var(--sp07);
     }
     .festoContainer>div:nth-of-type(3){
         padding: 0 3.125%;
