@@ -14,6 +14,9 @@
 input,textarea{
     font-weight: inherit; line-height: inherit; font-family: inherit; background-color: transparent; resize: none; font-size: inherit;
 }
+input::placeholder{
+    font-family: inherit; font-size: inherit;
+}
 li{list-style: none;}
 img{width: 100%;}
 a{text-decoration: none;}
@@ -25,7 +28,6 @@ input[type="submit"],input[type="button"]{border: none;}
     border-width: 0 0 2px; border-color: var(--bs03);
 }
 select{background-color: transparent;}
-
 time,a,small,b,strong,span,mark,img,input[type='radio'],#gnb.active{
     display: block;
 }

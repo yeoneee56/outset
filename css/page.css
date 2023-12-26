@@ -1,4 +1,8 @@
 @media screen and (max-width: 767px){
+    input::placeholder,
+    textarea::placeholder{
+        font-size: 12px;
+    }
     .mainTopslider li a{
         color: var(--gs01);
     }
@@ -460,8 +464,8 @@
     .reviewList li{
         padding: var(--sp05) 0;
     }
-    .reviewList span>input{
-        background-size: 20px; width: 50px;
+    .reviewList input{
+        padding-left: var(--sp04); background-size: 20px;
     }
     #addrBefore div,
     .reviewList li>div:last-of-type>*{
@@ -526,9 +530,6 @@
     }
     .freeContainer div:nth-of-type(2) ul li:not(:last-of-type){
         padding-right: var(--sp02);
-    }
-    .freeContainer div:nth-of-type(2) ul li:not(:last-of-type){
-        margin-right: var(--sp01);
     }
     .ingContainer h2{
         margin: var(--sp07) 0 var(--sp04) 0; padding: 0 3.57% var(--sp04);
@@ -646,9 +647,6 @@
     .accountJoin>div{
         max-width: 260px;
     }
-    .accountFind #successPage p{
-        padding-bottom: var(--sp01);
-    }
     .accountFind>div h2>small,
     .accountJoin>div h2>span{
         margin-top: var(--sp01);
@@ -657,10 +655,7 @@
         padding: var(--sp01);
     }
     .accountJoin>div>div span a{
-        font-weight: 400; color: inherit;
-    }
-    .accountJoin>div>div span a::after{
-        content: ""; background-image: url("../images/ico_arrow_bl.png"); background-repeat: no-repeat; background-position: right center; background-size: 5px; padding-right: var(--sp02);
+        color: inherit;
     }
     .mypage{
         padding: var(--sp15) 3.57%;
@@ -692,7 +687,7 @@
         max-width: 450px; background: url("../images/ico_mark.png") no-repeat top; padding: var(--sp16) 2% 0; background-size: 20px;
     }
     #emptyAddr>input{
-        background: url("../images/ico_arrow_bl.png") no-repeat 98% center; background-size: 6px; padding: 0 var(--sp02);
+        background: url("../images/ico_arrow_bl.png") no-repeat 98% center; background-size: 6px; padding: 0 var(--sp02) 0 var(--sp00);
     }
     #addrBefore{
         padding: var(--sp05) var(--sp02);
@@ -952,9 +947,6 @@
     .reviews>div:nth-of-type(2)>form input[type="search"]{
         padding: var(--sp00) 3% var(--sp00) var(--sp00); margin: var(--sp03) 0 var(--sp07) 0;
     }
-    .reviewList span>input{
-        padding-left: var(--sp08);
-    }
     .cleanContainer>div:nth-of-type(1)>div{
         padding-bottom: var(--sp09);
     }
@@ -1207,7 +1199,7 @@
         margin: 0 auto var(--sp06); max-width: 550px;
     }
     .causeContainer>ul:nth-of-type(2) li div::before{
-        padding-top: var(--sp20); margin-bottom: var(--sp09);
+        padding-top: var(--sp21); margin-bottom: var(--sp09);
     }
     .festoContainer>div:nth-of-type(2) video{
         max-width: 720px; margin: 0 auto var(--sp07);
@@ -1334,6 +1326,9 @@
     }
     .reviewList li>div:last-of-type{
         width: 25%;
+    }
+    .reviewList span>input{
+        padding-left: var(--sp06);
     }
     .bundle>div>div:first-of-type{
         padding-top: var(--sp07);
@@ -1533,6 +1528,10 @@
 }
 /* ?tablet */
 @media screen and (min-width: 768px){
+    input::placeholder,
+    textarea::placeholder{
+        font-size: 15px;
+    }
     .mainContainer>div:nth-of-type(3) a{
         color: #9a9a9a;
     }
@@ -2787,7 +2786,7 @@
         bottom: 10%;
     }
     .reviewList input{
-        padding-left: var(--sp11);
+        padding-left: var(--sp07);
     }
     .reviewList li>div:last-of-type{
         width: 20%; padding-top: 2%;
@@ -3235,10 +3234,6 @@
 .ppContainer>ol li:nth-of-type(2)>ul li::marker,
 .ppContainer>ol li:nth-of-type(12)>ul:not(.tableList) li::marker{
     font-size: 10px;
-}
-input::placeholder,
-textarea::placeholder{
-    font-size: 15px; 
 }
 .paymentContainer form div div:nth-child(1)>ul li label,
 #addrBefore span label,
@@ -4047,6 +4042,9 @@ span > mark,
 .pager>a:last-of-type{
     right: 0;
 }
+.countP input[type='button']{
+    line-height: 30px;
+}
 .cleanContainer>h2{
     background-image: url("../images/ethos_clean_01.png");
 }
@@ -4257,7 +4255,10 @@ span > mark,
     border-radius: 4px; border: 1px solid var(--bs02);
 }
 .reviewList span>input{
-    background-repeat: no-repeat; background-position: center;
+    background-repeat: no-repeat; background-position: left center;
+}
+.reviewList span>input:last-of-type{
+    margin-left: var(--sp02);
 }
 .btnUp{
     background-image: url("../images/ico_Up.png");
@@ -4430,13 +4431,22 @@ span > mark,
 input:focus{
     outline-style: solid; outline-width: 2px; outline-color: transparent;
 }
+.accountFind #successPage p{
+    padding-bottom: var(--sp01);
+}
 .accountLogin>div>div form fieldset>ul li input,
 .accountFind>div>div:last-of-type fieldset input[type="email"],
 .accountJoin>div div fieldset>ul li:not(:last-of-type) input{
     width: 100%; padding-left: var(--sp02);
 }
+.accountFind>div>div:last-of-type fieldset input[type='email']{
+    padding-top: var(--sp02);
+}
 .accountLogin>div>div div h3 a{
     top: 0; right: 0;
+}
+.accountJoin>div>div span a::after{
+    content: ""; background-image: url("../images/ico_arrow_bl.png"); background-repeat: no-repeat; background-position: right center; background-size: 5px; padding-right: var(--sp02);
 }
 .accountFind #successPage p{
     border-bottom: 2px solid var(--bs03);
