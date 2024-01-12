@@ -14,3 +14,14 @@ function beforeCon(target){
     })
 }
 
+$(function(){
+    sayHello("#hello");
+});
+
+function sayHello(targetA){
+    $(".closePop").click(function(){
+        $(targetA).css({
+            "display" : "none"
+        })
+    })
+}

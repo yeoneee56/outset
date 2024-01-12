@@ -86,6 +86,8 @@ function openCloseElement(openBtn){
         $(currentTarget).removeClass("active");
     });
 }
+
+
 function openPa(openCart){
     var cartTarget = null;
     $(openCart).click(function(){

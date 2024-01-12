@@ -549,6 +549,9 @@ footer > span{
     footer address div{
         margin: var(--sp04) 0;
     }
+    #hello{
+        line-height: 50px; background-color: var(--gs01); width: 40%; padding: var(--sp15); position: fixed; transform: translate(-50%, -50%); left: 50%; top: 50%; z-index: 15; position: fixed; box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.15);
+    }
 }
 /* *desktop */
 
