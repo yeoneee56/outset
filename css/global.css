@@ -286,7 +286,7 @@ footer > span{
     .underblueBtn:after{
         background-size: 9px;
     }
-    .underbarBtn:after{
+    .underbarBtn:after{d
         background-size: 7px;
     }
     header > div nav{
@@ -398,6 +398,9 @@ footer > span{
 }
 /* ?desk + tab */ 
 @media screen and (max-width: 1279px){
+    #hello{
+        display: none;
+    }
     #gnb > div h2{
         display: none;
     }
