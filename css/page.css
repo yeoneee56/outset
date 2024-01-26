@@ -4280,7 +4280,7 @@ span > mark,
     background-size: contain; background-repeat: no-repeat; background-position: top;
 }
 .bg01{
-    background-image: url("../images/Bundle_Bg01.png");
+    background-image: url('../images/Bundle_Bg01.png');
 }
 .bg02{
     background-image: url('../images/Bundle_bg02.png');
