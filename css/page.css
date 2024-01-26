@@ -4283,10 +4283,10 @@ span > mark,
     background-image: url("../images/Bundle_Bg01.png");
 }
 .bg02{
-    background-image: url('../images/Bundle_bg02.png')
+    background-image: url('../images/Bundle_bg02.png');
 }
 .bg03{
-    background-image: url('../images/Bundle_bg03.png')
+    background-image: url('../images/Bundle_bg03.png');
 }
 .bundle>div{
     background-color: var(--gs01);
